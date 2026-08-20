@@ -1,0 +1,82 @@
+---
+import { mainNavigation } from '../../data/navigation';
+---
+
+<nav class="desktop-nav" aria-label="Primary navigation">
+  <ul class="nav-list">
+    {
+      mainNavigation.map((item) => (
+        <li class="nav-item">
+          <a href={item.href} class="nav-link">
+            <span>{item.label}</span>
+            {item.label === 'Digital Marketing Courses' && (
+              <span class="nav-caret" aria-hidden="true" />
+            )}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<style>
+  .desktop-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+    gap: clamp(var(--sp-4), 2vw, var(--sp-8));
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-2);
+    min-height: 2.75rem;
+    font-family: var(--font-body);
+    font-size: var(--fs-nav);
+    font-weight: var(--fw-medium);
+    color: var(--text-primary);
+    transition:
+      color var(--mot-fast) var(--ease-emphasis),
+      transform var(--mot-fast) var(--ease-emphasis);
+  }
+
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.35rem;
+    height: 2px;
+    background-color: var(--brand-primary);
+    border-radius: var(--radius-pill);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform var(--mot-fast) var(--ease-emphasis);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus-visible {
+    color: var(--brand-primary);
+  }
+
+  .nav-link:hover::after,
+  .nav-link:focus-visible::after {
+    transform: scaleX(1);
+  }
+
+  .nav-caret {
+    width: 0.42rem;
+    height: 0.42rem;
+    border-right: var(--border-width-standard) solid currentColor;
+    border-bottom: var(--border-width-standard) solid currentColor;
+    transform: translateY(-0.12rem) rotate(45deg);
+  }
+</style>

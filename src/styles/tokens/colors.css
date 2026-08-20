@@ -1,0 +1,94 @@
+:root {
+  --canvas: #f7f8fb;
+  --surface: #ffffff;
+  --surface-soft: #f1f3f7;
+  --surface-elevated: #fbfcff;
+  --surface-inverse: #10121a;
+
+  --text-primary: #11131a;
+  --text-secondary: #525866;
+  --text-muted: #687182;
+  --text-inverse: #ffffff;
+
+  --border: #dfe3ea;
+  --border-strong: #c7ced8;
+
+  --brand-primary: #e1262f;
+  --brand-primary-hover: #c91f28;
+  --brand-primary-active: #ad1821;
+  --brand-primary-soft: #fff1f2;
+  --brand-primary-subtle: #fde7e9;
+  --brand-secondary: #65429b;
+  --brand-secondary-hover: #573786;
+  --brand-secondary-soft: #f4f0fa;
+  --brand-accent: #f06445;
+  --accent-secondary: var(--brand-secondary);
+  --accent-warm: var(--brand-accent);
+  --accent-highlight: #ffe2cf;
+
+  --success: #167a3f;
+  --success-soft: #eaf7ef;
+  --warning: #9a6500;
+  --warning-soft: #fff6df;
+  --error: #c3212d;
+  --error-soft: #fff1f2;
+  --info: #3a6f86;
+  --info-soft: #edf7fa;
+
+  --focus-ring: #e1262f;
+  --selection-bg: #fde7e9;
+  --overlay: rgba(18, 21, 33, 0.56);
+
+  --gradient-start: #e1262f;
+  --gradient-middle: #d92745;
+  --gradient-end: #65429b;
+  --gradient-brand: linear-gradient(
+    135deg,
+    #e1262f 0%,
+    #d92745 45%,
+    #65429b 100%
+  );
+}
+
+.theme-dark,
+[data-theme='dark'] {
+  --canvas: #10121a;
+  --surface: #151720;
+  --surface-soft: #1d202b;
+  --surface-elevated: #202431;
+  --surface-inverse: #ffffff;
+
+  --text-primary: #f8f9fc;
+  --text-secondary: #c8cdd8;
+  --text-muted: #9ba3b2;
+  --text-inverse: #11131a;
+
+  --border: #303543;
+  --border-strong: #5b6374;
+
+  --brand-primary: #ff5a63;
+  --brand-primary-hover: #ff747b;
+  --brand-primary-active: #f1434d;
+  --brand-primary-soft: #35181d;
+  --brand-primary-subtle: #4a1d25;
+  --brand-secondary: #b79ae8;
+  --brand-secondary-hover: #ccb8f2;
+  --brand-secondary-soft: #241d34;
+  --brand-accent: #ff9b83;
+  --accent-secondary: var(--brand-secondary);
+  --accent-warm: var(--brand-accent);
+  --accent-highlight: #412219;
+
+  --success: #5ed68b;
+  --success-soft: #153322;
+  --warning: #ffce6a;
+  --warning-soft: #352817;
+  --error: #ff7a85;
+  --error-soft: #3d1d23;
+  --info: #8fd2e7;
+  --info-soft: #142d36;
+
+  --focus-ring: #ff747b;
+  --selection-bg: #4a1d25;
+  --overlay: rgba(0, 0, 0, 0.72);
+}

@@ -1,0 +1,49 @@
+---
+interface Props {
+  name: string;
+  required?: boolean;
+  disabled?: boolean;
+  id?: string;
+}
+
+const { name, required = false, disabled = false, id, ...rest } = Astro.props;
+---
+
+<select
+  name={name}
+  id={id}
+  required={required}
+  disabled={disabled}
+  class="select-primitive"
+  {...rest}
+>
+  <slot />
+</select>
+
+<style>
+  .select-primitive {
+    width: 100%;
+    height: 2.75rem;
+    padding-left: var(--sp-4);
+    padding-right: var(--sp-4);
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    background-color: var(--surface);
+    color: var(--text-primary);
+    border: var(--border-width-hairline) solid var(--border);
+    border-radius: var(--radius-md);
+    transition: border-color var(--mot-fast) var(--ease-emphasis);
+    cursor: pointer;
+  }
+
+  .select-primitive:focus {
+    border-color: var(--brand-primary);
+    outline: none;
+  }
+
+  .select-primitive[disabled] {
+    background-color: var(--canvas);
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+</style>

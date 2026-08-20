@@ -1,0 +1,8 @@
+"section_id","section_name","content_required","content_source","factual_verification_required","local_asset_required","asset_available","missing_asset","owner_action_required","can_design_with_placeholder_structure","can_publish_without_dependency","status","notes"
+"SEC-HERO","Hero Section","Course tracks checklist","Program catalogs","true","Classroom candid photo","false","High-res cohort image","true","true","false","ASSET BLOCKED","Requires photography shoot."
+"SEC-TRUST","Trust Ribbon","Verified recruiter company names","Placement registry","true","Hiring company SVGs","true","None","false","true","true","READY WITH LIMITATIONS","Muted partner SVGs verified."
+"SEC-SWITCH","Program switcher","Course summaries & durations","Course details","true","Course badge SVGs","true","None","false","true","true","READY WITH LIMITATIONS","Taxonomy mapped."
+"SEC-PROJECT","Student showcase","Campaign briefs & Shopify links","Student portfolios","true","Browser screenshots","false","Student work images","true","true","false","CONTENT BLOCKED","Requires portfolio approvals."
+"SEC-OUTCOME","Success stories","Placed student profiles & consent","Placement registry","true","Student portrait photos","false","Student face avatars","true","true","false","CLAIMS BLOCKED","Requires owner consent log."
+"SEC-CAMPUS","Campus switcher","Classroom capacities & coordinates","Center manager directory","true","Classroom photos","false","Surat & Naroda lab photos","true","true","false","ASSET BLOCKED","Requires campus shoots."
+"SEC-FAQ","FAQs","TIMING & FEES FAQ blocks","General FAQs","true","None","true","None","false","true","true","READY WITH LIMITATIONS","FAQ text verified."

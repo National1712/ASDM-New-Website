@@ -1,0 +1,57 @@
+/* Global Styles */
+@import './reset.css';
+@import './tokens.css';
+
+html {
+  font-family: var(--font-body);
+  font-size: 16px;
+  background-color: var(--canvas);
+  color: var(--text-primary);
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--ls-tight);
+  max-width: var(--heading-width);
+}
+
+p {
+  line-height: var(--lh-body);
+  color: var(--text-secondary);
+  max-width: var(--reading-width);
+}
+
+/* Selection colour */
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--text-primary);
+}
+
+/* Accessibility Focus Styling */
+*:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 4px;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Utility screen reader text */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

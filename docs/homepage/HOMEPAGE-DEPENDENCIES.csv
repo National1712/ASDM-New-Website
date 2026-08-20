@@ -1,0 +1,22 @@
+section_id,working_name,content_dependency,proof_dependency,asset_dependency,build_dependency,status
+HOM-01,Hero,Working hero copy,No statistics or outcome proof required,Learning-in-action visual,Approved global shell,COMPLETE
+HOM-02,Trust Strip,Approved trust labels,Owner proof for each trust item,Logo or proof assets if approved,HOM-01,CONTENT REQUIRED
+HOM-03,Course Snapshot,Program overview copy,Owner-approved course scope,None required,HOM-02,CONTENT REQUIRED
+HOM-04,Why Choose ASDM,Reasons and differentiators,Owner proof for differentiators,Optional classroom/project media,HOM-03,CONTENT REQUIRED
+HOM-05,Career Opportunities,Role list and career context,No salary or placement claims without proof,Optional role visuals,HOM-04,CONTENT REQUIRED
+HOM-06,Who Can Join,Audience segments,Owner-approved eligibility guidance,None required,HOM-05,CONTENT REQUIRED
+HOM-07,Program Facts,Duration mode tools project count batches certification status,Owner-verified factual parameters,None required,HOM-06,CONTENT REQUIRED
+HOM-08,Program Comparison,Comparison criteria,Owner-approved competing/alternate program facts,None required,HOM-07,CONTENT REQUIRED
+HOM-09,Course Curriculum,Syllabus modules,Owner-approved curriculum outline,None required,HOM-08,CONTENT REQUIRED
+HOM-10,AI & Industry Tools,Tool list and workflow notes,Owner-approved tool usage scope,Tool UI screenshots only if licensed,HOM-09,CONTENT REQUIRED
+HOM-11,Practical Learning Methodology,Learning method explanation,Owner-approved pedagogy details,Classroom/project media,HOM-10,CONTENT REQUIRED
+HOM-12,Live Projects & Client Work,Project descriptions,Client/project approval and permissions,Project artefacts,HOM-11,CONTENT REQUIRED
+HOM-13,Trainers & Industry Mentors,Trainer profiles,Trainer consent and credentials proof,Trainer portraits,HOM-12,CONTENT REQUIRED
+HOM-14,"Internship, Freelancing & Placement Support",Support scope,Owner proof for support terms,Optional support/process media,HOM-13,CONTENT REQUIRED
+HOM-15,Student Success,Approved student stories,Student consent and evidence,Student images or work samples,HOM-14,CONTENT REQUIRED
+HOM-16,Certifications & Recognition,Certification/recognition details,Owner proof for every certification/recognition,Badge/certificate artwork if approved,HOM-15,CONTENT REQUIRED
+HOM-17,Ahmedabad Campus,Campus details,Owner-approved address/facility facts,Campus photography,HOM-16,CONTENT REQUIRED
+HOM-18,"Fees, Batches & EMI",Fees batch and EMI details,Owner-approved commercial terms,None required,HOM-17,CONTENT REQUIRED
+HOM-19,FAQs,Question and answer set,Owner-approved answers,None required,HOM-18,CONTENT REQUIRED
+HOM-20,Final CTA,Final conversion copy,No proof required,None required,HOM-19,CONTENT REQUIRED
+HOM-21,Global Footer,Approved global footer content,Existing shell approval,Existing logo asset,HOM-20,APPROVED

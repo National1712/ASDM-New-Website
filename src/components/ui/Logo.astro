@@ -1,0 +1,89 @@
+---
+interface Props {
+  variant?: 'primary' | 'inverse' | 'symbol';
+  context?: 'header' | 'footer' | 'showcase';
+  class?: string;
+}
+
+const {
+  variant = 'primary',
+  context = 'header',
+  class: className = '',
+} = Astro.props;
+
+const logoMap = {
+  primary: {
+    src: '/assets/brand/asdm-logo-primary.svg',
+    width: 850,
+    height: 370,
+    alt: 'ASDM',
+  },
+  inverse: {
+    src: '/assets/brand/asdm-logo-white.svg',
+    width: 890,
+    height: 380,
+    alt: 'ASDM',
+  },
+  symbol: {
+    src: '/assets/brand/asdm-symbol.svg',
+    width: 800,
+    height: 260,
+    alt: 'ASDM symbol',
+  },
+} as const;
+
+const logo = logoMap[variant];
+---
+
+<div
+  class={`asdm-logo-wrap asdm-logo-${variant} asdm-logo-${context} ${className}`}
+>
+  <img
+    src={logo.src}
+    width={logo.width}
+    height={logo.height}
+    alt={logo.alt}
+    class="asdm-logo"
+    decoding="async"
+  />
+</div>
+
+<style>
+  .asdm-logo-wrap {
+    display: inline-flex;
+    align-items: center;
+    flex: 0 0 auto;
+  }
+
+  .asdm-logo {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .asdm-logo-header {
+    width: clamp(9.25rem, 12vw, 12rem);
+  }
+
+  .asdm-logo-footer {
+    width: 10.5rem;
+  }
+
+  .asdm-logo-showcase {
+    width: 12rem;
+  }
+
+  .asdm-logo-symbol {
+    width: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    .asdm-logo-header {
+      width: 8.25rem;
+    }
+
+    .asdm-logo-footer {
+      width: 9.75rem;
+    }
+  }
+</style>

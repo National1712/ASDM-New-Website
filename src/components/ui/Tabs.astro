@@ -1,0 +1,99 @@
+---
+interface Props {
+  tabItems: { id: string; label: string }[];
+  class?: string;
+}
+
+const { tabItems, class: className = '' } = Astro.props;
+---
+
+<div class={`tabs-container ${className}`}>
+  <div class="tabs-list" role="tablist">
+    {
+      tabItems.map((tab, index) => (
+        <button
+          role="tab"
+          aria-selected={index === 0 ? 'true' : 'false'}
+          aria-controls={`panel-${tab.id}`}
+          id={`tab-${tab.id}`}
+          class={`tab-trigger ${index === 0 ? 'active' : ''}`}
+        >
+          {tab.label}
+        </button>
+      ))
+    }
+  </div>
+
+  <div class="tabs-panels">
+    <slot />
+  </div>
+</div>
+
+<script>
+  // Dynamic CSS Switcher Behavior
+  document.querySelectorAll('[role="tab"]').forEach((trigger) => {
+    trigger.addEventListener('click', (e) => {
+      const target = e.currentTarget as HTMLButtonElement;
+      const container = target.closest('.tabs-container');
+      if (!container) return;
+
+      // Update triggers state
+      container.querySelectorAll('[role="tab"]').forEach((tab) => {
+        tab.setAttribute('aria-selected', 'false');
+        tab.classList.remove('active');
+      });
+      target.setAttribute('aria-selected', 'true');
+      target.classList.add('active');
+
+      // Update panels visibility
+      const panelId = target.getAttribute('aria-controls');
+      container.querySelectorAll('[role="tabpanel"]').forEach((panel) => {
+        panel.classList.add('sr-only');
+      });
+      const activePanel = container.querySelector(`#${panelId}`);
+      if (activePanel) {
+        activePanel.classList.remove('sr-only');
+      }
+    });
+  });
+</script>
+
+<style>
+  .tabs-container {
+    width: 100%;
+  }
+
+  .tabs-list {
+    display: inline-flex;
+    background-color: var(--surface-soft);
+    border: var(--border-width-hairline) solid var(--border);
+    padding: var(--sp-1);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--sp-6);
+  }
+
+  .tab-trigger {
+    padding: var(--sp-2) var(--sp-4);
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    font-weight: var(--fw-semibold);
+    color: var(--text-secondary);
+    background: transparent;
+    border: 0;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition:
+      background-color var(--mot-fast) var(--ease-emphasis),
+      color var(--mot-fast) var(--ease-emphasis);
+  }
+
+  .tab-trigger:hover {
+    color: var(--brand-primary);
+  }
+
+  .tab-trigger.active {
+    background-color: var(--brand-primary);
+    color: #ffffff;
+    box-shadow: var(--shadow-soft);
+  }
+</style>

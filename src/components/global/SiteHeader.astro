@@ -1,0 +1,116 @@
+---
+import Logo from '../ui/Logo.astro';
+import Button from '../ui/Button.astro';
+import DesktopNavigation from './DesktopNavigation.astro';
+import MobileNavigation from './MobileNavigation.astro';
+---
+
+<header class="site-header" data-site-header>
+  <div class="header-container">
+    <a href="/" class="logo-link" aria-label="ASDM home">
+      <Logo />
+    </a>
+
+    <div class="nav-desktop-only">
+      <DesktopNavigation />
+    </div>
+
+    <div class="cta-desktop-only" aria-label="Header actions">
+      <Button href="/contact" variant="primary" size="sm" class="header-cta"
+        >Brochure</Button
+      >
+      <Button
+        href="tel:+919327967701"
+        variant="primary"
+        size="sm"
+        class="header-cta header-call">Call 9327967701</Button
+      >
+    </div>
+
+    <div class="nav-mobile-only">
+      <MobileNavigation />
+    </div>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    min-height: var(--header-height);
+    background-color: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(18px);
+    border-bottom: var(--border-width-hairline) solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-container {
+    width: 100%;
+    max-width: var(--container-wide);
+    margin: 0 auto;
+    padding: var(--sp-3) var(--sp-gutter);
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    column-gap: clamp(var(--sp-6), 4vw, var(--sp-12));
+  }
+
+  .logo-link {
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    border-radius: var(--radius-sm);
+    padding: var(--sp-1) 0;
+  }
+
+  .nav-desktop-only {
+    justify-self: center;
+  }
+
+  .cta-desktop-only {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--sp-3);
+    justify-self: end;
+  }
+
+  :global(.header-cta) {
+    min-width: 8.75rem;
+    height: 2.75rem;
+    border-radius: var(--radius-sm);
+    text-transform: uppercase;
+  }
+
+  :global(.header-call) {
+    min-width: 11.25rem;
+    text-transform: none;
+  }
+
+  .nav-mobile-only {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .site-header {
+      min-height: 4.25rem;
+    }
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      padding-top: var(--sp-2);
+      padding-bottom: var(--sp-2);
+    }
+
+    .nav-desktop-only,
+    .cta-desktop-only {
+      display: none;
+    }
+    .nav-mobile-only {
+      display: block;
+    }
+  }
+</style>

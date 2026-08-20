@@ -1,0 +1,578 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Container from '../components/ui/Container.astro';
+import Section from '../components/ui/Section.astro';
+import Stack from '../components/ui/Stack.astro';
+import Cluster from '../components/ui/Cluster.astro';
+import Button from '../components/ui/Button.astro';
+import IconButton from '../components/ui/IconButton.astro';
+import TextLink from '../components/ui/TextLink.astro';
+import Badge from '../components/ui/Badge.astro';
+import Eyebrow from '../components/ui/Eyebrow.astro';
+import Divider from '../components/ui/Divider.astro';
+import Surface from '../components/ui/Surface.astro';
+import Card from '../components/ui/Card.astro';
+import Input from '../components/ui/Input.astro';
+import Select from '../components/ui/Select.astro';
+import Textarea from '../components/ui/Textarea.astro';
+import Checkbox from '../components/ui/Checkbox.astro';
+import Radio from '../components/ui/Radio.astro';
+import FormField from '../components/ui/FormField.astro';
+import Accordion from '../components/ui/Accordion.astro';
+import Tabs from '../components/ui/Tabs.astro';
+import Logo from '../components/ui/Logo.astro';
+---
+
+<BaseLayout title="ASDM Redesign Design System" noindex={true}>
+  <Section>
+    <Container>
+      <Stack gap="10">
+        <!-- 1. Header -->
+        <div>
+          <Eyebrow>Design Foundations</Eyebrow>
+          <h1>ASDM Signature Design System</h1>
+          <p class="mt-2 text-large">
+            Internal design tokens, component primitives, and responsive shell
+            audit.
+          </p>
+        </div>
+
+        <Divider />
+
+        <div id="logo-usage" data-logo-usage>
+          <h2>Logo Usage</h2>
+          <div class="logo-usage-grid mt-6">
+            <Surface
+              variant="elevated"
+              class="showcase-surface logo-sample-card"
+            >
+              <Eyebrow>Primary Logo</Eyebrow>
+              <div class="logo-sample logo-sample-light">
+                <Logo variant="primary" context="showcase" />
+              </div>
+              <p class="mt-2">Use on light and neutral surfaces.</p>
+            </Surface>
+            <Surface
+              variant="inverse"
+              class="showcase-surface logo-sample-card"
+            >
+              <Eyebrow>Inverse Logo</Eyebrow>
+              <div class="logo-sample logo-sample-dark">
+                <Logo variant="inverse" context="showcase" />
+              </div>
+              <p class="mt-2">Use only on genuinely dark charcoal surfaces.</p>
+            </Surface>
+            <Surface
+              variant="elevated"
+              class="showcase-surface logo-sample-card"
+            >
+              <Eyebrow>Symbol</Eyebrow>
+              <div class="logo-sample logo-sample-light">
+                <Logo variant="symbol" context="showcase" />
+              </div>
+              <p class="mt-2">
+                Use for compact marks where the full logo cannot fit.
+              </p>
+            </Surface>
+          </div>
+          <div class="logo-guidance-grid mt-4">
+            <Card>
+              <h3>Minimum size</h3>
+              <p class="mt-2">
+                Keep the full logo near or above 110px wide in small headers and
+                145px wide in desktop headers.
+              </p>
+            </Card>
+            <Card>
+              <h3>Clear space</h3>
+              <p class="mt-2">
+                Maintain breathing room around the mark equal to the height of
+                the ASDM letter stems where possible.
+              </p>
+            </Card>
+            <Card>
+              <h3>Incorrect usage</h3>
+              <div
+                class="incorrect-logo-grid mt-4"
+                aria-label="Incorrect logo usage examples"
+              >
+                <span class="incorrect-logo-box stretch">Stretch</span>
+                <span class="incorrect-logo-box box-bg">Black box</span>
+                <span class="incorrect-logo-box low-contrast">Low contrast</span
+                >
+              </div>
+            </Card>
+          </div>
+        </div>
+
+        <Divider />
+
+        <!-- 2. Colors -->
+        <div>
+          <h2>Color Palette</h2>
+          <div class="grid-3 mt-6">
+            <div class="color-swatch canvas-bg">
+              <span class="swatch-label">Canvas (#f7f8fb)</span>
+            </div>
+            <div class="color-swatch surface-bg">
+              <span class="swatch-label">Surface (#ffffff)</span>
+            </div>
+            <div class="color-swatch brand-bg">
+              <span class="swatch-label">Brand Primary (#e1262f)</span>
+            </div>
+            <div class="color-swatch secondary-bg">
+              <span class="swatch-label">Secondary Purple (#65429b)</span>
+            </div>
+            <div class="color-swatch warm-bg">
+              <span class="swatch-label">Warm Accent (#f06445)</span>
+            </div>
+            <div class="color-swatch inverse-bg">
+              <span class="swatch-label">Inverse Surface (#10121a)</span>
+            </div>
+          </div>
+        </div>
+
+        <Divider />
+
+        <div>
+          <h2>ASDM Brand Balance</h2>
+          <div class="brand-balance-grid mt-6">
+            <Card>
+              <Eyebrow>Primary Red</Eyebrow>
+              <h3>Action and focus</h3>
+              <p class="mt-2">
+                Red is reserved for primary decisions, keyboard focus, key
+                links, and selected states.
+              </p>
+            </Card>
+            <Card>
+              <Eyebrow>Secondary Purple</Eyebrow>
+              <h3>Brand support</h3>
+              <p class="mt-2">
+                Purple supports brand depth in small surfaces, badges, and
+                selected composition accents.
+              </p>
+            </Card>
+            <Card>
+              <Eyebrow>Neutral System</Eyebrow>
+              <h3>Most of the interface</h3>
+              <p class="mt-2">
+                Canvas, surface, text, spacing, and borders carry the premium
+                feel before color is introduced.
+              </p>
+            </Card>
+          </div>
+          <div class="brand-gradient-sample mt-4">
+            <span>Restrained brand gradient</span>
+          </div>
+          <div class="usage-comparison mt-4">
+            <Surface variant="elevated" class="showcase-surface">
+              <h3>Correct usage</h3>
+              <p class="mt-2">
+                One red action, neutral text, and a quiet purple support badge.
+              </p>
+              <Cluster gap="3" class="mt-4">
+                <Button>Primary action</Button>
+                <Badge variant="secondary">Support</Badge>
+              </Cluster>
+            </Surface>
+            <Surface
+              variant="elevated"
+              class="showcase-surface excessive-example"
+            >
+              <h3>Excessive usage</h3>
+              <p class="mt-2">
+                Avoid making every card, border, heading, and background red.
+              </p>
+            </Surface>
+          </div>
+        </div>
+
+        <Divider />
+
+        <!-- 3. Typography -->
+        <div>
+          <h2>Typography Scale</h2>
+          <Stack gap="4" class="mt-6">
+            <span class="scale-display-xl">Display XL (Fluid clamp)</span>
+            <span class="scale-display-lg">Display Large</span>
+            <h1>Heading 1 (H1)</h1>
+            <h2>Heading 2 (H2)</h2>
+            <h3>Heading 3 (H3)</h3>
+            <h4>Heading 4 (H4)</h4>
+            <p>
+              Body copy standard line height of 1.6 for comfortable multi-line
+              paragraph reading.
+            </p>
+            <span class="caption">Caption text (0.75rem / 12px)</span>
+          </Stack>
+        </div>
+
+        <Divider />
+
+        <!-- 4. Component Primitives -->
+        <div>
+          <h2>Core UI Component Primitives</h2>
+
+          <Stack gap="8" class="mt-6">
+            <!-- Buttons -->
+            <div>
+              <h3>Buttons & Icons</h3>
+              <Cluster gap="4" class="mt-4">
+                <Button variant="primary">Primary Action</Button>
+                <Button variant="secondary">Secondary Action</Button>
+                <Button variant="outline">Outline Action</Button>
+                <Button variant="inverse">Inverse Surface</Button>
+                <Button variant="primary" disabled={true}>Disabled state</Button
+                >
+                <IconButton ariaLabel="Sample icon action">
+                  <span aria-hidden="true">+</span>
+                </IconButton>
+              </Cluster>
+            </div>
+
+            <div>
+              <h3>Links</h3>
+              <p class="mt-4">
+                <TextLink href="/resources">Sample text link</TextLink>
+              </p>
+            </div>
+
+            <!-- Badges -->
+            <div>
+              <h3>Badges & Indicators</h3>
+              <Cluster gap="4" class="mt-4">
+                <Badge variant="default">Program Category</Badge>
+                <Badge variant="secondary">Secondary</Badge>
+                <Badge variant="neutral">Neutral</Badge>
+                <Badge variant="success">Available</Badge>
+                <Badge variant="warning">Review needed</Badge>
+                <Badge variant="error">Error state</Badge>
+                <Badge variant="info">Information</Badge>
+              </Cluster>
+            </div>
+
+            <!-- Cards -->
+            <div>
+              <h3>Cards & Surfaces</h3>
+              <div class="grid-2 mt-4">
+                <Card elevated={false}>
+                  <h4>Flat Card</h4>
+                  <p class="mt-2">
+                    Standard flat 1px hairline border panel for grid items.
+                  </p>
+                </Card>
+                <Card elevated={true}>
+                  <h4>Elevated Card (Hover Zoom)</h4>
+                  <p class="mt-2">
+                    Hover translation with subtle dynamic shadow offsets.
+                  </p>
+                </Card>
+              </div>
+              <div class="grid-2 mt-4">
+                <Surface variant="base" class="showcase-surface">
+                  <h4>Light surface</h4>
+                  <p class="mt-2">
+                    Neutral content block for standard page areas.
+                  </p>
+                </Surface>
+                <Surface variant="inverse" class="showcase-surface theme-dark">
+                  <h4>Dark surface</h4>
+                  <p class="mt-2">
+                    High-contrast block for intentional dark sections.
+                  </p>
+                </Surface>
+              </div>
+            </div>
+
+            <!-- Form Elements -->
+            <div>
+              <h3>Form Fields</h3>
+              <div class="grid-2 mt-4">
+                <FormField label="Full Name" id="name-field">
+                  <Input
+                    type="text"
+                    name="fullName"
+                    id="name-field"
+                    placeholder="Enter name"
+                  />
+                </FormField>
+                <FormField label="Preferred Campus" id="campus-select">
+                  <Select name="campus" id="campus-select">
+                    <option value="sample-a">Sample center A</option>
+                    <option value="sample-b">Sample center B</option>
+                  </Select>
+                </FormField>
+                <FormField label="Sample message" id="message-field">
+                  <Textarea
+                    name="message"
+                    id="message-field"
+                    placeholder="Enter sample message"
+                  />
+                </FormField>
+                <FormField
+                  label="Error state"
+                  id="error-field"
+                  error="Use clear, specific error text."
+                >
+                  <Input
+                    type="email"
+                    name="email"
+                    id="error-field"
+                    placeholder="name@example.com"
+                  />
+                </FormField>
+              </div>
+              <Cluster gap="4" class="mt-4">
+                <label class="choice-control">
+                  <Checkbox name="sample-checkbox" />
+                  <span>Checkbox label</span>
+                </label>
+                <label class="choice-control">
+                  <Radio name="sample-radio" value="one" checked={true} />
+                  <span>Radio label</span>
+                </label>
+              </Cluster>
+            </div>
+
+            <!-- Accordions -->
+            <div>
+              <h3>Disclosure Accordions</h3>
+              <div class="mt-4">
+                <Accordion title="What information belongs in an accordion?">
+                  <p>
+                    Use accordions for compact reference content that does not
+                    block a primary decision.
+                  </p>
+                </Accordion>
+                <Accordion title="How should pending content be handled?">
+                  <p>
+                    Keep pending facts out of public copy until the owner
+                    approves the source.
+                  </p>
+                </Accordion>
+              </div>
+            </div>
+
+            <!-- Tabs -->
+            <div>
+              <h3>Interactive Switcher Tabs</h3>
+              <div class="mt-4">
+                <Tabs
+                  tabItems={[
+                    { id: 'track1', label: 'Program type' },
+                    { id: 'track2', label: 'Course category' },
+                  ]}
+                >
+                  <div
+                    id="panel-track1"
+                    role="tabpanel"
+                    aria-labelledby="tab-track1"
+                  >
+                    <p class="mt-4">
+                      Use this panel for neutral program grouping examples.
+                    </p>
+                  </div>
+                  <div
+                    id="panel-track2"
+                    role="tabpanel"
+                    aria-labelledby="tab-track2"
+                    class="sr-only"
+                  >
+                    <p class="mt-4">
+                      Use this panel for neutral course category examples.
+                    </p>
+                  </div>
+                </Tabs>
+              </div>
+            </div>
+          </Stack>
+        </div>
+      </Stack>
+    </Container>
+  </Section>
+</BaseLayout>
+
+<style>
+  .text-large {
+    font-size: var(--fs-body-lg);
+    color: var(--text-secondary);
+  }
+
+  .color-swatch {
+    height: 6rem;
+    display: flex;
+    align-items: flex-end;
+    padding: var(--sp-3);
+    border-radius: var(--radius-md);
+    border: var(--border-width-hairline) solid var(--border);
+  }
+
+  .canvas-bg {
+    background-color: var(--canvas);
+  }
+
+  .surface-bg {
+    background-color: var(--surface);
+  }
+
+  .brand-bg {
+    background-color: var(--brand-primary);
+    color: #ffffff;
+  }
+
+  .secondary-bg {
+    background-color: var(--brand-secondary);
+    color: #ffffff;
+  }
+
+  .warm-bg {
+    background-color: var(--accent-warm);
+    color: #ffffff;
+  }
+
+  .inverse-bg {
+    background-color: var(--surface-inverse);
+    color: var(--text-inverse);
+  }
+
+  .swatch-label {
+    font-family: var(--font-body);
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-semibold);
+  }
+
+  /* Typographic helper scales */
+  .scale-display-xl {
+    font-family: var(--font-display);
+    font-size: var(--fs-display-xl);
+    font-weight: var(--fw-bold);
+  }
+
+  .scale-display-lg {
+    font-family: var(--font-display);
+    font-size: var(--fs-display-lg);
+    font-weight: var(--fw-bold);
+  }
+
+  .caption {
+    font-size: var(--fs-caption);
+    color: var(--text-muted);
+  }
+
+  .showcase-surface {
+    padding: var(--sp-card-padding);
+    border: var(--border-width-hairline) solid var(--border);
+    border-radius: var(--radius-lg);
+  }
+
+  .brand-balance-grid,
+  .usage-comparison {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--sp-6);
+  }
+
+  .usage-comparison {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .brand-gradient-sample {
+    min-height: 7rem;
+    display: flex;
+    align-items: flex-end;
+    padding: var(--sp-4);
+    border-radius: var(--radius-lg);
+    background: var(--gradient-brand);
+    color: #ffffff;
+    font-size: var(--fs-label);
+    font-weight: var(--fw-semibold);
+  }
+
+  .excessive-example {
+    border-color: var(--brand-primary);
+    background:
+      linear-gradient(var(--brand-primary-soft), var(--brand-primary-soft)),
+      var(--surface);
+  }
+
+  .choice-control {
+    min-height: var(--touch-target);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-2);
+    color: var(--text-secondary);
+    font-size: var(--fs-body-sm);
+  }
+
+  .logo-usage-grid,
+  .logo-guidance-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--sp-6);
+  }
+
+  .logo-sample-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-4);
+  }
+
+  .logo-sample {
+    min-height: 7rem;
+    display: flex;
+    align-items: center;
+    padding: var(--sp-4);
+    border-radius: var(--radius-md);
+    border: var(--border-width-hairline) solid var(--border);
+  }
+
+  .logo-sample-light {
+    background-color: var(--surface);
+  }
+
+  .logo-sample-dark {
+    background-color: var(--surface-inverse);
+  }
+
+  .incorrect-logo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--sp-2);
+  }
+
+  .incorrect-logo-box {
+    min-height: 3rem;
+    display: grid;
+    place-items: center;
+    border-radius: var(--radius-sm);
+    border: var(--border-width-hairline) solid var(--border);
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-semibold);
+    color: var(--text-secondary);
+  }
+
+  .incorrect-logo-box.stretch {
+    transform: scaleX(1.18);
+    background-color: var(--surface-soft);
+  }
+
+  .incorrect-logo-box.box-bg {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .incorrect-logo-box.low-contrast {
+    background-color: var(--brand-primary-soft);
+    color: var(--brand-primary-subtle);
+  }
+
+  @media (max-width: 768px) {
+    .brand-balance-grid,
+    .usage-comparison,
+    .logo-usage-grid,
+    .logo-guidance-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

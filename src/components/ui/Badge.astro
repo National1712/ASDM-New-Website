@@ -1,0 +1,78 @@
+---
+interface Props {
+  variant?:
+    | 'default'
+    | 'secondary'
+    | 'neutral'
+    | 'success'
+    | 'warning'
+    | 'error'
+    | 'info';
+  class?: string;
+}
+
+const { variant = 'default', class: className = '' } = Astro.props;
+---
+
+<span class={`badge badge-${variant} ${className}`}>
+  <slot />
+</span>
+
+<style>
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: var(--sp-1) var(--sp-3);
+    font-family: var(--font-body);
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-semibold);
+    letter-spacing: var(--ls-wide);
+    border-radius: var(--radius-pill);
+    text-transform: uppercase;
+    background-color: var(--brand-primary-soft);
+    border: var(--border-width-hairline) solid var(--brand-primary-subtle);
+    color: var(--brand-primary-hover);
+  }
+
+  .badge-default {
+    background-color: var(--brand-primary-soft);
+    border-color: var(--brand-primary-subtle);
+    color: var(--brand-primary-hover);
+  }
+
+  .badge-secondary {
+    background-color: var(--brand-secondary-soft);
+    border-color: var(--brand-secondary-soft);
+    color: var(--brand-secondary);
+  }
+
+  .badge-neutral {
+    background-color: var(--surface-soft);
+    border-color: var(--border);
+    color: var(--text-secondary);
+  }
+
+  .badge-success {
+    background-color: var(--success-soft);
+    border-color: var(--success-soft);
+    color: var(--success);
+  }
+
+  .badge-warning {
+    background-color: var(--warning-soft);
+    border-color: var(--warning-soft);
+    color: var(--warning);
+  }
+
+  .badge-error {
+    background-color: var(--error-soft);
+    border-color: var(--error-soft);
+    color: var(--error);
+  }
+
+  .badge-info {
+    background-color: var(--info-soft);
+    border-color: var(--info-soft);
+    color: var(--info);
+  }
+</style>

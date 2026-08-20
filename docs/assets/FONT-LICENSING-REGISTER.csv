@@ -1,0 +1,2 @@
+font_file,font_family_detected,format,source_known,license_file_found,commercial_web_use_confirmed,self_hosting_confirmed,variable_font,weights_available,recommendation,notes
+N/A (No fonts found),None (Directory empty),N/A,N/A,false,false,false,false,None,SOURCE REQUIRED,The public/assets/fonts/ folder contains only .gitkeep. No local fonts are currently checked into the repository.

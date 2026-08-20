@@ -1,0 +1,121 @@
+---
+interface Props {
+  variant?: 'primary' | 'secondary' | 'outline' | 'inverse';
+  size?: 'sm' | 'md' | 'lg';
+  href?: string;
+  type?: 'button' | 'submit' | 'reset';
+  disabled?: boolean;
+  class?: string;
+  id?: string;
+}
+
+const {
+  variant = 'primary',
+  size = 'md',
+  href,
+  type = 'button',
+  disabled = false,
+  class: className = '',
+  id,
+  ...rest
+} = Astro.props;
+
+const Tag = href ? 'a' : 'button';
+---
+
+<Tag
+  href={href}
+  type={href ? undefined : type}
+  disabled={href ? undefined : disabled}
+  class={`btn btn-${variant} btn-${size} ${className}`}
+  id={id}
+  {...rest}
+>
+  <slot />
+</Tag>
+
+<style>
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-body);
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-button);
+    letter-spacing: var(--ls-normal);
+    border-radius: var(--radius-md);
+    transition:
+      background-color var(--mot-fast) var(--ease-emphasis),
+      border-color var(--mot-fast) var(--ease-emphasis),
+      color var(--mot-fast) var(--ease-emphasis);
+    cursor: pointer;
+    border: var(--border-width-standard) solid transparent;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .btn[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  /* Sizes */
+  .btn-sm {
+    height: 2.25rem;
+    padding-left: var(--sp-4);
+    padding-right: var(--sp-4);
+  }
+
+  .btn-md {
+    height: 2.75rem;
+    padding-left: var(--sp-6);
+    padding-right: var(--sp-6);
+  }
+
+  .btn-lg {
+    height: 3.25rem;
+    padding-left: var(--sp-8);
+    padding-right: var(--sp-8);
+  }
+
+  /* Variants */
+  .btn-primary {
+    background-color: var(--brand-primary);
+    color: #ffffff;
+  }
+  .btn-primary:hover:not([disabled]) {
+    background-color: var(--brand-primary-hover);
+  }
+  .btn-primary:active:not([disabled]) {
+    background-color: var(--brand-primary-active);
+  }
+
+  .btn-secondary {
+    background-color: var(--brand-secondary-soft);
+    color: var(--brand-secondary);
+  }
+  .btn-secondary:hover:not([disabled]) {
+    background-color: var(--brand-secondary);
+    color: #ffffff;
+  }
+
+  .btn-outline {
+    background-color: transparent;
+    border-color: var(--border);
+    color: var(--text-primary);
+  }
+  .btn-outline:hover:not([disabled]) {
+    background-color: var(--brand-primary-soft);
+    border-color: var(--brand-primary-subtle);
+    color: var(--brand-primary);
+  }
+
+  .btn-inverse {
+    background-color: var(--surface-inverse);
+    color: var(--canvas);
+  }
+  .btn-inverse:hover:not([disabled]) {
+    opacity: 0.9;
+  }
+</style>

@@ -1,0 +1,12 @@
+---
+interface Props {
+  padding?: boolean;
+  class?: string;
+}
+
+const { padding = true, class: className = '' } = Astro.props;
+---
+
+<section class={`section ${padding ? 'section-padding' : ''} ${className}`}>
+  <slot />
+</section>

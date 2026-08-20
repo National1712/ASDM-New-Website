@@ -1,0 +1,61 @@
+---
+interface Props {
+  type?: 'text' | 'email' | 'tel';
+  name: string;
+  placeholder?: string;
+  required?: boolean;
+  disabled?: boolean;
+  value?: string;
+  id?: string;
+}
+
+const {
+  type = 'text',
+  name,
+  placeholder,
+  required = false,
+  disabled = false,
+  value,
+  id,
+  ...rest
+} = Astro.props;
+---
+
+<input
+  type={type}
+  name={name}
+  id={id}
+  placeholder={placeholder}
+  required={required}
+  disabled={disabled}
+  value={value}
+  class="input-primitive"
+  {...rest}
+/>
+
+<style>
+  .input-primitive {
+    width: 100%;
+    height: 2.75rem;
+    padding-left: var(--sp-4);
+    padding-right: var(--sp-4);
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    background-color: var(--surface);
+    color: var(--text-primary);
+    border: var(--border-width-hairline) solid var(--border);
+    border-radius: var(--radius-md);
+    transition: border-color var(--mot-fast) var(--ease-emphasis);
+  }
+
+  .input-primitive:focus {
+    border-color: var(--brand-primary);
+    outline: none;
+  }
+
+  .input-primitive[disabled] {
+    background-color: var(--canvas);
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+</style>

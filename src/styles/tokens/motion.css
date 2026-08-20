@@ -1,0 +1,12 @@
+:root {
+  /* Durations */
+  --mot-instant: 0s;
+  --mot-fast: 0.15s;
+  --mot-standard: 0.25s;
+  --mot-deliberate: 0.4s;
+
+  /* Easing curves */
+  --ease-entrance: cubic-bezier(0.16, 1, 0.3, 1); /* easeOutExpo */
+  --ease-exit: cubic-bezier(0.7, 0, 0.84, 0); /* easeInExpo */
+  --ease-emphasis: cubic-bezier(0.25, 1, 0.5, 1);
+}

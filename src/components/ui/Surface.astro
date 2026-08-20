@@ -1,0 +1,38 @@
+---
+interface Props {
+  variant?: 'base' | 'elevated' | 'inverse' | 'muted';
+  class?: string;
+}
+
+const { variant = 'base', class: className = '' } = Astro.props;
+---
+
+<div class={`surface surface-${variant} ${className}`}>
+  <slot />
+</div>
+
+<style>
+  .surface {
+    transition: background-color var(--mot-fast) var(--ease-emphasis);
+  }
+
+  .surface-base {
+    background-color: var(--surface-soft);
+    color: var(--text-primary);
+  }
+
+  .surface-elevated {
+    background-color: var(--surface);
+    color: var(--text-primary);
+  }
+
+  .surface-inverse {
+    background-color: var(--surface-inverse);
+    color: var(--text-inverse);
+  }
+
+  .surface-muted {
+    background-color: var(--surface-soft);
+    color: var(--text-secondary);
+  }
+</style>

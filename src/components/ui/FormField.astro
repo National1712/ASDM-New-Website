@@ -1,0 +1,44 @@
+---
+interface Props {
+  label: string;
+  id: string;
+  error?: string;
+}
+
+const { label, id, error } = Astro.props;
+---
+
+<div class="form-field">
+  <label for={id} class="form-label">{label}</label>
+  <div class="form-control-wrapper">
+    <slot />
+  </div>
+  {
+    error && (
+      <span class="form-error" role="alert">
+        {error}
+      </span>
+    )
+  }
+</div>
+
+<style>
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-2);
+  }
+
+  .form-label {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    font-weight: var(--fw-semibold);
+    color: var(--text-primary);
+  }
+
+  .form-error {
+    font-family: var(--font-body);
+    font-size: var(--fs-caption);
+    color: var(--error);
+  }
+</style>

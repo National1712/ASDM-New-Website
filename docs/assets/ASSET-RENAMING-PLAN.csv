@@ -1,0 +1,320 @@
+asset_id,current_path,proposed_file_name,naming_reason,rename_status,approval_required
+ASSET-ABOUT-001,"public/assets/about/745-x-550-Award-Image.jpg",about-745-x-550-award-image.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ABOUT-002,"public/assets/about/745-x-550-Award-Image.webp",about-745-x-550-award-image.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-003,"public/assets/alumini/The-wall-of-fame-1.jpg",alumini-the-wall-of-fame-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-004,"public/assets/alumini/The-wall-of-fame-1.webp",alumini-the-wall-of-fame-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-005,"public/assets/alumini/The-wall-of-fame-2.jpg",alumini-the-wall-of-fame-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-006,"public/assets/alumini/The-wall-of-fame-2.webp",alumini-the-wall-of-fame-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-007,"public/assets/alumini/The-wall-of-fame-3.jpg",alumini-the-wall-of-fame-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-008,"public/assets/alumini/The-wall-of-fame-3.webp",alumini-the-wall-of-fame-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-009,"public/assets/alumini/The-wall-of-fame-4.jpg",alumini-the-wall-of-fame-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-010,"public/assets/alumini/The-wall-of-fame-4.webp",alumini-the-wall-of-fame-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-011,"public/assets/alumini/The-wall-of-fame-5.jpg",alumini-the-wall-of-fame-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-012,"public/assets/alumini/The-wall-of-fame-5.webp",alumini-the-wall-of-fame-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-013,"public/assets/alumini/The-wall-of-fame-6.jpg",alumini-the-wall-of-fame-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-014,"public/assets/alumini/The-wall-of-fame-6.webp",alumini-the-wall-of-fame-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-015,"public/assets/alumini/The-wall-of-fame-7.jpg",alumini-the-wall-of-fame-7.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-016,"public/assets/alumini/The-wall-of-fame-7.webp",alumini-the-wall-of-fame-7.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-017,"public/assets/alumini/The-wall-of-fame-8.jpg",alumini-the-wall-of-fame-8.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-ALUMINI-018,"public/assets/alumini/The-wall-of-fame-8.webp",alumini-the-wall-of-fame-8.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-019,"public/assets/awards/745 x 448 1.jpg",awards-745-x-448-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-020,"public/assets/awards/745 x 448 1.webp",awards-745-x-448-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-021,"public/assets/awards/745-x-550-Award-Image-2.jpg",awards-745-x-550-award-image-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-022,"public/assets/awards/745-x-550-Award-Image-2.webp",awards-745-x-550-award-image-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-023,"public/assets/awards/Award-1 - Copy.png",awards-award-1---copy.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-024,"public/assets/awards/Award-1.png",awards-award-1.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-025,"public/assets/awards/Award-1.webp",awards-award-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-026,"public/assets/awards/Award-2 - Copy.png",awards-award-2---copy.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-027,"public/assets/awards/Award-2 - Copy.webp",awards-award-2---copy.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-028,"public/assets/awards/Award-2.png",awards-award-2.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-029,"public/assets/awards/Award-2.webp",awards-award-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-030,"public/assets/awards/Award-3 - Copy.png",awards-award-3---copy.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-031,"public/assets/awards/Award-3 - Copy.webp",awards-award-3---copy.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-032,"public/assets/awards/Award-3.png",awards-award-3.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-033,"public/assets/awards/Award-3.webp",awards-award-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-034,"public/assets/awards/Award-4 - Copy.png",awards-award-4---copy.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-035,"public/assets/awards/Award-4 - Copy.webp",awards-award-4---copy.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-036,"public/assets/awards/Award-4.png",awards-award-4.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-037,"public/assets/awards/Award-4.webp",awards-award-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-038,"public/assets/awards/Award-5 - Copy.png",awards-award-5---copy.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-039,"public/assets/awards/Award-5 - Copy.webp",awards-award-5---copy.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-040,"public/assets/awards/Award-5.png",awards-award-5.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-041,"public/assets/awards/Award-5.webp",awards-award-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-042,"public/assets/awards/Award-6 - Copy.png",awards-award-6---copy.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-043,"public/assets/awards/Award-6 - Copy.webp",awards-award-6---copy.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-044,"public/assets/awards/Award-6.png",awards-award-6.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-045,"public/assets/awards/Award-6.webp",awards-award-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-046,"public/assets/awards/ZEE24-745X448-PIXEL.jpg",awards-zee24-745x448-pixel.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-AWARDS-047,"public/assets/awards/ZEE24-745X448-PIXEL.webp",awards-zee24-745x448-pixel.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-048,"public/assets/campuses/Ecommerce-marketing-training.jpg",campuses-ecommerce-marketing-training.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-049,"public/assets/campuses/Ecommerce-marketing-training.webp",campuses-ecommerce-marketing-training.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-050,"public/assets/campuses/Ecommerce-training-1.jpg",campuses-ecommerce-training-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-051,"public/assets/campuses/Ecommerce-training-1.webp",campuses-ecommerce-training-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-052,"public/assets/campuses/Ecommerce-training-2.jpg",campuses-ecommerce-training-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-053,"public/assets/campuses/Ecommerce-training-2.webp",campuses-ecommerce-training-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-054,"public/assets/campuses/Ecommerce-training-3.jpg",campuses-ecommerce-training-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-055,"public/assets/campuses/Ecommerce-training-3.webp",campuses-ecommerce-training-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-056,"public/assets/campuses/Ecommerce-training-4.jpg",campuses-ecommerce-training-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-057,"public/assets/campuses/Ecommerce-training-4.webp",campuses-ecommerce-training-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-058,"public/assets/campuses/Ecommerce-training-5.jpg",campuses-ecommerce-training-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-059,"public/assets/campuses/Ecommerce-training-5.webp",campuses-ecommerce-training-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-060,"public/assets/campuses/Ecommerce-training-6.jpg",campuses-ecommerce-training-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-061,"public/assets/campuses/Guest-session-at-ASDM-1.jpg",campuses-guest-session-at-asdm-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-062,"public/assets/campuses/Guest-session-at-ASDM-1.webp",campuses-guest-session-at-asdm-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-063,"public/assets/campuses/Guest-session-at-ASDM-2.jpg",campuses-guest-session-at-asdm-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-064,"public/assets/campuses/Guest-session-at-ASDM-2.webp",campuses-guest-session-at-asdm-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-065,"public/assets/campuses/Guest-session-at-ASDM-3.jpg",campuses-guest-session-at-asdm-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-066,"public/assets/campuses/Guest-session-at-ASDM-3.webp",campuses-guest-session-at-asdm-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-067,"public/assets/campuses/Guest-session-at-ASDM-4.jpg",campuses-guest-session-at-asdm-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-068,"public/assets/campuses/Guest-session-at-ASDM-4.webp",campuses-guest-session-at-asdm-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-069,"public/assets/campuses/Guest-session-at-ASDM-5.jpg",campuses-guest-session-at-asdm-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-070,"public/assets/campuses/Guest-session-at-ASDM-5.webp",campuses-guest-session-at-asdm-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-071,"public/assets/campuses/Guest-session-at-ASDM-6.jpg",campuses-guest-session-at-asdm-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-072,"public/assets/campuses/Guest-session-at-ASDM-6.webp",campuses-guest-session-at-asdm-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-073,"public/assets/campuses/Guest-session-photos-1.jpg",campuses-guest-session-photos-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-074,"public/assets/campuses/Guest-session-photos-1.webp",campuses-guest-session-photos-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-075,"public/assets/campuses/Guest-session-photos-2.jpg",campuses-guest-session-photos-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-076,"public/assets/campuses/Guest-session-photos-2.webp",campuses-guest-session-photos-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-077,"public/assets/campuses/Guest-session-photos-3.jpg",campuses-guest-session-photos-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-078,"public/assets/campuses/Guest-session-photos-3.webp",campuses-guest-session-photos-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-079,"public/assets/campuses/Guest-session-photos-4.jpg",campuses-guest-session-photos-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-080,"public/assets/campuses/Guest-session-photos-4.webp",campuses-guest-session-photos-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-081,"public/assets/campuses/Guest-session-photos-5.jpg",campuses-guest-session-photos-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-082,"public/assets/campuses/Guest-session-photos-5.webp",campuses-guest-session-photos-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-083,"public/assets/campuses/Guest-session-photos-6.jpg",campuses-guest-session-photos-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-084,"public/assets/campuses/Guest-session-photos-6.webp",campuses-guest-session-photos-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-085,"public/assets/campuses/International-Freelancing-Training.jpg",campuses-international-freelancing-training.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-086,"public/assets/campuses/International-Freelancing-Training.webp",campuses-international-freelancing-training.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-087,"public/assets/campuses/Internship-Photos-1.jpg",campuses-internship-photos-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-088,"public/assets/campuses/Internship-Photos-1.webp",campuses-internship-photos-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-089,"public/assets/campuses/Internship-Photos-2.jpg",campuses-internship-photos-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-090,"public/assets/campuses/Internship-Photos-2.webp",campuses-internship-photos-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-091,"public/assets/campuses/Internship-Photos-3.jpg",campuses-internship-photos-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-092,"public/assets/campuses/Internship-Photos-3.webp",campuses-internship-photos-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-093,"public/assets/campuses/Internship-Photos-4.jpg",campuses-internship-photos-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-094,"public/assets/campuses/Internship-Photos-4.webp",campuses-internship-photos-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-095,"public/assets/campuses/Internship-Photos-5.jpg",campuses-internship-photos-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-096,"public/assets/campuses/Internship-Photos-5.webp",campuses-internship-photos-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-097,"public/assets/campuses/Internship-Photos-6.jpg",campuses-internship-photos-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-098,"public/assets/campuses/Internship-Photos-6.webp",campuses-internship-photos-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-099,"public/assets/campuses/Live-Campus-Photos-1.jpg",campuses-live-campus-photos-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-100,"public/assets/campuses/Live-Campus-Photos-1.webp",campuses-live-campus-photos-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-101,"public/assets/campuses/Live-Campus-Photos-2.jpg",campuses-live-campus-photos-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-102,"public/assets/campuses/Live-Campus-Photos-2.webp",campuses-live-campus-photos-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-103,"public/assets/campuses/Live-Campus-Photos-3.jpg",campuses-live-campus-photos-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-104,"public/assets/campuses/Live-Campus-Photos-3.webp",campuses-live-campus-photos-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-105,"public/assets/campuses/Live-Campus-Photos-4.jpg",campuses-live-campus-photos-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-106,"public/assets/campuses/Live-Campus-Photos-4.webp",campuses-live-campus-photos-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-107,"public/assets/campuses/Live-Campus-Photos-5.jpg",campuses-live-campus-photos-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-108,"public/assets/campuses/Live-Campus-Photos-5.webp",campuses-live-campus-photos-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-109,"public/assets/campuses/Live-Campus-Photos-6.jpg",campuses-live-campus-photos-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-110,"public/assets/campuses/Live-Campus-Photos-6.webp",campuses-live-campus-photos-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-111,"public/assets/campuses/P-1.jpg",campuses-p-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-112,"public/assets/campuses/P-1.webp",campuses-p-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-113,"public/assets/campuses/P-2.jpg",campuses-p-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-114,"public/assets/campuses/P-2.webp",campuses-p-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-115,"public/assets/campuses/P-3.jpg",campuses-p-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-116,"public/assets/campuses/P-3.webp",campuses-p-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-117,"public/assets/campuses/P-4.jpg",campuses-p-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-118,"public/assets/campuses/P-4.webp",campuses-p-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-119,"public/assets/campuses/P-5.jpg",campuses-p-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-120,"public/assets/campuses/P-5.webp",campuses-p-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-121,"public/assets/campuses/P-6.jpg",campuses-p-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-CAMPUSES-122,"public/assets/campuses/P-6.webp",campuses-p-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-HOMEPAGE-123,"public/assets/homepage/hero/Banner-1-Mobile-view (1).jpg",homepage-banner-1-mobile-view--1-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-124,"public/assets/homepage/hero/Banner-1-Mobile-view (1).webp",homepage-banner-1-mobile-view--1-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-125,"public/assets/homepage/hero/Banner-1-Mobile-view.jpg",homepage-banner-1-mobile-view.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-126,"public/assets/homepage/hero/Banner-1-Mobile-view.webp",homepage-banner-1-mobile-view.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-127,"public/assets/homepage/hero/Banner-1.jpg",homepage-banner-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-128,"public/assets/homepage/hero/Banner-1.webp",homepage-banner-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-129,"public/assets/homepage/hero/Banner-3-For-Surat (1).jpg",homepage-banner-3-for-surat--1-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-130,"public/assets/homepage/hero/Banner-3-For-Surat (1).webp",homepage-banner-3-for-surat--1-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-131,"public/assets/homepage/hero/Banner-3-For-Surat-Mobile-View (1).jpg",homepage-banner-3-for-surat-mobile-view--1-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-132,"public/assets/homepage/hero/Banner-3-For-Surat-Mobile-View (1).webp",homepage-banner-3-for-surat-mobile-view--1-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-133,"public/assets/homepage/hero/Banner-3-For-Surat-Mobile-View.jpg",homepage-banner-3-for-surat-mobile-view.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-134,"public/assets/homepage/hero/Banner-3-For-Surat-Mobile-View.webp",homepage-banner-3-for-surat-mobile-view.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-135,"public/assets/homepage/hero/Banner-3-For-Surat.jpg",homepage-banner-3-for-surat.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-136,"public/assets/homepage/hero/Banner-3-For-Surat.webp",homepage-banner-3-for-surat.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-137,"public/assets/homepage/hero/Banner-3-Mobile-View.jpg",homepage-banner-3-mobile-view.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-138,"public/assets/homepage/hero/Banner-3-Mobile-View.webp",homepage-banner-3-mobile-view.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-139,"public/assets/homepage/hero/Banner-3.jpg",homepage-banner-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-140,"public/assets/homepage/hero/Banner-3.webp",homepage-banner-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-141,"public/assets/homepage/hero/Banner-4 (1).jpg",homepage-banner-4--1-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-142,"public/assets/homepage/hero/Banner-4 (1).webp",homepage-banner-4--1-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-143,"public/assets/homepage/hero/Banner-4 (2).jpg",homepage-banner-4--2-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-144,"public/assets/homepage/hero/Banner-4 (2).webp",homepage-banner-4--2-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-145,"public/assets/homepage/hero/Banner-4 (3).jpg",homepage-banner-4--3-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-146,"public/assets/homepage/hero/Banner-4 (3).webp",homepage-banner-4--3-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-147,"public/assets/homepage/hero/Banner-4 (4).jpg",homepage-banner-4--4-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-148,"public/assets/homepage/hero/Banner-4 (4).webp",homepage-banner-4--4-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-149,"public/assets/homepage/hero/Banner-4 (5).jpg",homepage-banner-4--5-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-150,"public/assets/homepage/hero/Banner-4 (5).webp",homepage-banner-4--5-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-151,"public/assets/homepage/hero/Banner-4-2-Mobile-View (1).jpg",homepage-banner-4-2-mobile-view--1-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-152,"public/assets/homepage/hero/Banner-4-2-Mobile-View (1).webp",homepage-banner-4-2-mobile-view--1-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-153,"public/assets/homepage/hero/Banner-4-2-Mobile-View (2).jpg",homepage-banner-4-2-mobile-view--2-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-154,"public/assets/homepage/hero/Banner-4-2-Mobile-View (2).webp",homepage-banner-4-2-mobile-view--2-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-155,"public/assets/homepage/hero/Banner-4-2-Mobile-View.jpg",homepage-banner-4-2-mobile-view.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-156,"public/assets/homepage/hero/Banner-4-2-Mobile-View.webp",homepage-banner-4-2-mobile-view.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-157,"public/assets/homepage/hero/Banner-4-2.jpg",homepage-banner-4-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-158,"public/assets/homepage/hero/Banner-4-2.webp",homepage-banner-4-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-159,"public/assets/homepage/hero/Banner-4-Mobile-View.jpg",homepage-banner-4-mobile-view.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-160,"public/assets/homepage/hero/Banner-4-Mobile-View.webp",homepage-banner-4-mobile-view.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-161,"public/assets/homepage/hero/banner-4.jpg",homepage-banner-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-162,"public/assets/homepage/hero/banner-4.webp",homepage-banner-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-163,"public/assets/homepage/hero/Banner-5 (1).jpg",homepage-banner-5--1-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-164,"public/assets/homepage/hero/Banner-5 (1).webp",homepage-banner-5--1-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-165,"public/assets/homepage/hero/Banner-5 (3).jpg",homepage-banner-5--3-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-166,"public/assets/homepage/hero/Banner-5 (3).webp",homepage-banner-5--3-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-167,"public/assets/homepage/hero/Banner-5.jpg",homepage-banner-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-168,"public/assets/homepage/hero/Banner-5.webp",homepage-banner-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-169,"public/assets/homepage/hero/Banner-555.jpg",homepage-banner-555.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-170,"public/assets/homepage/hero/Banner-555.webp",homepage-banner-555.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-171,"public/assets/homepage/hero/Banner-6.jpg",homepage-banner-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-172,"public/assets/homepage/hero/Banner-6.webp",homepage-banner-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-173,"public/assets/homepage/hero/Banner-ASDM-333333.jpg",homepage-banner-asdm-333333.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-174,"public/assets/homepage/hero/Banner-ASDM-333333.webp",homepage-banner-asdm-333333.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-175,"public/assets/homepage/hero/BANNER_11 (1).jpg",homepage-banner-11--1-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-HOMEPAGE-176,"public/assets/homepage/hero/BANNER_11 (1).webp",homepage-banner-11--1-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,true
+ASSET-LOGOS-177,"public/assets/logos/250x87 asdm logo.png",logos-250x87-asdm-logo.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-LOGOS-178,"public/assets/logos/250x87 asdm logo.webp",logos-250x87-asdm-logo.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-179,"public/assets/party/Party-Photos-1.jpg",party-party-photos-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-180,"public/assets/party/Party-Photos-1.webp",party-party-photos-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-181,"public/assets/party/Party-Photos-2.jpg",party-party-photos-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-182,"public/assets/party/Party-Photos-2.webp",party-party-photos-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-183,"public/assets/party/Party-Photos-3.jpg",party-party-photos-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-184,"public/assets/party/Party-Photos-3.webp",party-party-photos-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-185,"public/assets/party/Party-Photos-4.jpg",party-party-photos-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-186,"public/assets/party/Party-Photos-4.webp",party-party-photos-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-187,"public/assets/party/Party-Photos-5.jpg",party-party-photos-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-188,"public/assets/party/Party-Photos-5.webp",party-party-photos-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-189,"public/assets/party/Party-Photos-6.jpg",party-party-photos-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PARTY-190,"public/assets/party/Party-Photos-6.webp",party-party-photos-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-191,"public/assets/placement-logo/250-X-100-Logo-1.png",placement-logo-250-x-100-logo-1.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-192,"public/assets/placement-logo/250-X-100-Logo-1.webp",placement-logo-250-x-100-logo-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-193,"public/assets/placement-logo/250-X-100-Logo-2.png",placement-logo-250-x-100-logo-2.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-194,"public/assets/placement-logo/250-X-100-Logo-2.webp",placement-logo-250-x-100-logo-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-195,"public/assets/placement-logo/250-X-100-Logo-3.png",placement-logo-250-x-100-logo-3.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-196,"public/assets/placement-logo/250-X-100-Logo-3.webp",placement-logo-250-x-100-logo-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-197,"public/assets/placement-logo/250-X-100-Logo-4.png",placement-logo-250-x-100-logo-4.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-198,"public/assets/placement-logo/250-X-100-Logo-4.webp",placement-logo-250-x-100-logo-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-199,"public/assets/placement-logo/250-X-100-Logo-5.png",placement-logo-250-x-100-logo-5.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-200,"public/assets/placement-logo/250-X-100-Logo-5.webp",placement-logo-250-x-100-logo-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-201,"public/assets/placement-logo/250-X-100-Logo-6.png",placement-logo-250-x-100-logo-6.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTLOGO-202,"public/assets/placement-logo/250-X-100-Logo-6.webp",placement-logo-250-x-100-logo-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-203,"public/assets/placements/255x320(1).jpg",placements-255x320-1-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-204,"public/assets/placements/255x320(1).webp",placements-255x320-1-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-205,"public/assets/placements/255x320(2).jpg",placements-255x320-2-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-206,"public/assets/placements/255x320(2).webp",placements-255x320-2-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-207,"public/assets/placements/255x320(3).jpg",placements-255x320-3-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-208,"public/assets/placements/255x320(3).webp",placements-255x320-3-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-209,"public/assets/placements/255x320(4).jpg",placements-255x320-4-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-210,"public/assets/placements/255x320(4).webp",placements-255x320-4-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-211,"public/assets/placements/255x320(5).jpg",placements-255x320-5-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-212,"public/assets/placements/255x320(5).webp",placements-255x320-5-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-213,"public/assets/placements/255x320(6).jpg",placements-255x320-6-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-214,"public/assets/placements/255x320(6).webp",placements-255x320-6-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-215,"public/assets/placements/255x320(7).jpg",placements-255x320-7-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-216,"public/assets/placements/255x320(7).webp",placements-255x320-7-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-217,"public/assets/placements/255x320(8).jpg",placements-255x320-8-.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-218,"public/assets/placements/255x320(8).webp",placements-255x320-8-.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-219,"public/assets/placements/600X 700 16.jpg",placements-600x-700-16.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-220,"public/assets/placements/600X 700 19.jpg",placements-600x-700-19.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-221,"public/assets/placements/600X 700 20.jpg",placements-600x-700-20.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-222,"public/assets/placements/600X 700 21.jpg",placements-600x-700-21.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-223,"public/assets/placements/600X 700 22.jpg",placements-600x-700-22.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-224,"public/assets/placements/600X 700 23.jpg",placements-600x-700-23.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-225,"public/assets/placements/600X 700 24.jpg",placements-600x-700-24.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-226,"public/assets/placements/600X 700 25.jpg",placements-600x-700-25.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-227,"public/assets/placements/600X700 6.jpg",placements-600x700-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-228,"public/assets/placements/Real-Results-1.jpg",placements-real-results-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-229,"public/assets/placements/Real-Results-1.webp",placements-real-results-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-230,"public/assets/placements/Real-Results-2.jpg",placements-real-results-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-231,"public/assets/placements/Real-Results-2.webp",placements-real-results-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-232,"public/assets/placements/Real-Results-3.jpg",placements-real-results-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-233,"public/assets/placements/Real-Results-3.webp",placements-real-results-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-234,"public/assets/placements/Real-Results-4.jpg",placements-real-results-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-235,"public/assets/placements/Real-Results-4.webp",placements-real-results-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-236,"public/assets/placements/Real-Results-5.jpg",placements-real-results-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-237,"public/assets/placements/Real-Results-5.webp",placements-real-results-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-238,"public/assets/placements/Real-Results-6.jpg",placements-real-results-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-239,"public/assets/placements/Real-Results-6.webp",placements-real-results-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-240,"public/assets/placements/Real-Results-7.jpg",placements-real-results-7.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-241,"public/assets/placements/Real-Results-7.webp",placements-real-results-7.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-242,"public/assets/placements/Real-Results-8.jpg",placements-real-results-8.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-243,"public/assets/placements/Real-Results-8.webp",placements-real-results-8.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-244,"public/assets/placements/Real-Results-9.jpg",placements-real-results-9.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-245,"public/assets/placements/Real-Results-9.webp",placements-real-results-9.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-246,"public/assets/placements/Recent Placement-1.jpg",placements-recent-placement-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-247,"public/assets/placements/Recent Placement-1.webp",placements-recent-placement-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-248,"public/assets/placements/Recent Placement-2.jpg",placements-recent-placement-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-249,"public/assets/placements/Recent Placement-2.webp",placements-recent-placement-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-250,"public/assets/placements/Recent Placement-3.jpg",placements-recent-placement-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-251,"public/assets/placements/Recent Placement-3.webp",placements-recent-placement-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-252,"public/assets/placements/Recent Placement-4.jpg",placements-recent-placement-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-253,"public/assets/placements/Recent Placement-4.webp",placements-recent-placement-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-254,"public/assets/placements/Recent Placement-5.jpg",placements-recent-placement-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-255,"public/assets/placements/Recent Placement-5.webp",placements-recent-placement-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-256,"public/assets/placements/Recent Placement-6.jpg",placements-recent-placement-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-257,"public/assets/placements/Recent Placement-6.webp",placements-recent-placement-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-258,"public/assets/placements/Recent Placement-7.jpg",placements-recent-placement-7.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-259,"public/assets/placements/Recent Placement-7.webp",placements-recent-placement-7.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-260,"public/assets/placements/Recent Placement-8.jpg",placements-recent-placement-8.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-261,"public/assets/placements/Recent Placement-8.webp",placements-recent-placement-8.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-262,"public/assets/placements/Top-Placed-1.jpg",placements-top-placed-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-263,"public/assets/placements/Top-Placed-1.webp",placements-top-placed-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-264,"public/assets/placements/Top-Placed-2.jpg",placements-top-placed-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-265,"public/assets/placements/Top-Placed-2.webp",placements-top-placed-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-266,"public/assets/placements/Top-Placed-3.jpg",placements-top-placed-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-267,"public/assets/placements/Top-Placed-3.webp",placements-top-placed-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-268,"public/assets/placements/Top-Placed-4.jpg",placements-top-placed-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-269,"public/assets/placements/Top-Placed-4.webp",placements-top-placed-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-270,"public/assets/placements/Top-Placed-5.jpg",placements-top-placed-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-271,"public/assets/placements/Top-Placed-5.webp",placements-top-placed-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-272,"public/assets/placements/Top-Placed-6.jpg",placements-top-placed-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-273,"public/assets/placements/Top-Placed-6.webp",placements-top-placed-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-274,"public/assets/placements/Top-Placed-7.jpg",placements-top-placed-7.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-275,"public/assets/placements/Top-Placed-7.webp",placements-top-placed-7.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-276,"public/assets/placements/Top-Placed-8.jpg",placements-top-placed-8.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-PLACEMENTS-277,"public/assets/placements/Top-Placed-8.webp",placements-top-placed-8.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-278,"public/assets/skill-india/200-x-200 - 1.png",skill-india-200-x-200---1.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-279,"public/assets/skill-india/200-x-200 - 1.webp",skill-india-200-x-200---1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-280,"public/assets/skill-india/200-x-200 - 2.png",skill-india-200-x-200---2.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-281,"public/assets/skill-india/200-x-200 - 2.webp",skill-india-200-x-200---2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-282,"public/assets/skill-india/200-x-200 - 3.png",skill-india-200-x-200---3.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-283,"public/assets/skill-india/200-x-200 - 3.webp",skill-india-200-x-200---3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-284,"public/assets/skill-india/200-x-200--1.png",skill-india-200-x-200--1.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-285,"public/assets/skill-india/200-x-200--1.webp",skill-india-200-x-200--1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-286,"public/assets/skill-india/200-x-200--2.png",skill-india-200-x-200--2.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-287,"public/assets/skill-india/200-x-200--2.webp",skill-india-200-x-200--2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-288,"public/assets/skill-india/200-x-200--3.png",skill-india-200-x-200--3.png,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-289,"public/assets/skill-india/200-x-200--3.webp",skill-india-200-x-200--3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-290,"public/assets/skill-india/200-X-200-1.jpg",skill-india-200-x-200-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-291,"public/assets/skill-india/200-X-200-1.webp",skill-india-200-x-200-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-292,"public/assets/skill-india/200-X-200-2.jpg",skill-india-200-x-200-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-293,"public/assets/skill-india/200-X-200-2.webp",skill-india-200-x-200-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-294,"public/assets/skill-india/200-X-200-3.jpg",skill-india-200-x-200-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-SKILLINDIA-295,"public/assets/skill-india/200-X-200-3.webp",skill-india-200-x-200-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-296,"public/assets/student-work/BJP-&-ABVP-Internship-1.jpg",student-work-bjp---abvp-internship-1.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-297,"public/assets/student-work/BJP-&-ABVP-Internship-1.webp",student-work-bjp---abvp-internship-1.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-298,"public/assets/student-work/BJP-&-ABVP-Internship-10.jpg",student-work-bjp---abvp-internship-10.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-299,"public/assets/student-work/BJP-&-ABVP-Internship-10.webp",student-work-bjp---abvp-internship-10.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-300,"public/assets/student-work/BJP-&-ABVP-Internship-2.jpg",student-work-bjp---abvp-internship-2.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-301,"public/assets/student-work/BJP-&-ABVP-Internship-2.webp",student-work-bjp---abvp-internship-2.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-302,"public/assets/student-work/BJP-&-ABVP-Internship-3.jpg",student-work-bjp---abvp-internship-3.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-303,"public/assets/student-work/BJP-&-ABVP-Internship-3.webp",student-work-bjp---abvp-internship-3.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-304,"public/assets/student-work/BJP-&-ABVP-Internship-4.jpg",student-work-bjp---abvp-internship-4.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-305,"public/assets/student-work/BJP-&-ABVP-Internship-4.webp",student-work-bjp---abvp-internship-4.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-306,"public/assets/student-work/BJP-&-ABVP-Internship-5.jpg",student-work-bjp---abvp-internship-5.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-307,"public/assets/student-work/BJP-&-ABVP-Internship-5.webp",student-work-bjp---abvp-internship-5.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-308,"public/assets/student-work/BJP-&-ABVP-Internship-6.jpg",student-work-bjp---abvp-internship-6.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-309,"public/assets/student-work/BJP-&-ABVP-Internship-6.webp",student-work-bjp---abvp-internship-6.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-310,"public/assets/student-work/BJP-&-ABVP-Internship-7.jpg",student-work-bjp---abvp-internship-7.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-311,"public/assets/student-work/BJP-&-ABVP-Internship-7.webp",student-work-bjp---abvp-internship-7.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-312,"public/assets/student-work/BJP-&-ABVP-Internship-8.jpg",student-work-bjp---abvp-internship-8.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-313,"public/assets/student-work/BJP-&-ABVP-Internship-8.webp",student-work-bjp---abvp-internship-8.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-314,"public/assets/student-work/BJP-&-ABVP-Internship-9.jpg",student-work-bjp---abvp-internship-9.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-STUDENTWORK-315,"public/assets/student-work/BJP-&-ABVP-Internship-9.webp",student-work-bjp---abvp-internship-9.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-TOOLSLOGO-316,"public/assets/tools-logo/Tools-Banner---1920-x-700.jpg",tools-logo-tools-banner---1920-x-700.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-TOOLSLOGO-317,"public/assets/tools-logo/Tools-Banner---1920-x-700.webp",tools-logo-tools-banner---1920-x-700.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-TOOLSLOGO-318,"public/assets/tools-logo/Tools-banner-mobile-view.jpg",tools-logo-tools-banner-mobile-view.jpg,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false
+ASSET-TOOLSLOGO-319,"public/assets/tools-logo/Tools-banner-mobile-view.webp",tools-logo-tools-banner-mobile-view.webp,Lowercase kebab-case naming standard mapping category to filename.,PLANNED,false

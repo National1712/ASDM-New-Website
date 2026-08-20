@@ -1,0 +1,295 @@
+---
+import Section from '../ui/Section.astro';
+import Container from '../ui/Container.astro';
+import Button from '../ui/Button.astro';
+import HeroVisual from './HeroVisual.astro';
+import { homepageHero } from '../../data/homepage/hero';
+---
+
+<Section class="homepage-hero" padding={false}>
+  <Container wide={true}>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="hero-eyebrow">
+          <span class="eyebrow-mark" aria-hidden="true"></span>
+          <span class="eyebrow-highlight">{homepageHero.eyebrow.highlight}</span
+          >
+          <span>{homepageHero.eyebrow.rest}</span>
+        </p>
+
+        <h1>
+          {homepageHero.heading.main}
+          <span>{homepageHero.heading.accent}</span>
+        </h1>
+
+        <p class="hero-value">{homepageHero.valueStatement}</p>
+        <p class="hero-description">{homepageHero.description}</p>
+
+        <div class="hero-actions" aria-label="Hero actions">
+          <Button
+            href={homepageHero.primaryCTA.href}
+            size="lg"
+            variant="primary"
+            class="hero-primary-action"
+          >
+            {homepageHero.primaryCTA.label}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              ><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg
+            >
+          </Button>
+          <Button
+            href={homepageHero.secondaryCTA.href}
+            size="lg"
+            variant="outline"
+            class="hero-secondary-action"
+          >
+            {homepageHero.secondaryCTA.label}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              ><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path
+                d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"
+              ></path><path
+                d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"
+              ></path></svg
+            >
+          </Button>
+        </div>
+
+        <dl class="hero-trust-row" aria-label="ASDM course proof points">
+          {
+            homepageHero.trustRow.map((item) => (
+              <div class="trust-item">
+                <dt>{item.value}</dt>
+                <dd>{item.label}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </div>
+
+      <HeroVisual hero={homepageHero} />
+    </div>
+  </Container>
+</Section>
+
+<style>
+  :global(.homepage-hero) {
+    position: relative;
+    overflow: clip;
+    min-height: calc(100svh - var(--header-height));
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.76), transparent 42%),
+      radial-gradient(
+        circle at 88% 18%,
+        rgba(225, 38, 47, 0.055),
+        transparent 30%
+      ),
+      var(--canvas);
+    padding-block: clamp(3.75rem, 6vw, 6.75rem) clamp(3.5rem, 5vw, 5.5rem);
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.98fr) minmax(24rem, 1.02fr);
+    align-items: center;
+    gap: clamp(3rem, 5vw, 6rem);
+  }
+
+  .hero-copy {
+    max-width: 42.5rem;
+  }
+
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    margin: 0 0 var(--sp-5);
+    font-family: var(--font-body);
+    font-size: clamp(0.75rem, 0.3vw + 0.68rem, 0.8125rem);
+    font-weight: var(--fw-semibold);
+    letter-spacing: var(--ls-wide);
+    line-height: var(--lh-meta);
+    color: var(--text-primary);
+    text-transform: uppercase;
+  }
+
+  .eyebrow-mark {
+    width: 2.5rem;
+    height: 2px;
+    background-color: var(--brand-primary);
+    border-radius: var(--radius-pill);
+  }
+
+  .eyebrow-highlight {
+    color: var(--brand-primary);
+  }
+
+  h1 {
+    max-width: 42rem;
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 4.9vw, 4.25rem);
+    font-weight: var(--fw-semibold);
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+    text-wrap: balance;
+  }
+
+  h1 span {
+    display: block;
+    color: var(--brand-primary);
+  }
+
+  .hero-value {
+    max-width: 39rem;
+    margin: var(--sp-6) 0 0;
+    font-family: var(--font-display);
+    font-size: clamp(1.35rem, 1vw + 1rem, 1.6rem);
+    font-weight: var(--fw-semibold);
+    line-height: var(--lh-heading);
+    color: var(--text-primary);
+  }
+
+  .hero-description {
+    max-width: 38rem;
+    margin: var(--sp-4) 0 0;
+    font-size: clamp(1.0625rem, 0.35vw + 0.95rem, 1.125rem);
+    line-height: 1.68;
+    color: var(--text-secondary);
+  }
+
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--sp-4);
+    margin-top: var(--sp-8);
+  }
+
+  :global(.hero-primary-action),
+  :global(.hero-secondary-action) {
+    min-height: 3.25rem;
+    border-radius: var(--radius-lg);
+    gap: var(--sp-2);
+    padding-inline: var(--sp-6);
+  }
+
+  :global(.hero-primary-action svg) {
+    transition: transform var(--mot-fast) var(--ease-emphasis);
+  }
+
+  :global(.hero-primary-action:hover svg) {
+    transform: translateX(0.2rem);
+  }
+
+  :global(.hero-secondary-action) {
+    background-color: rgba(255, 255, 255, 0.76) !important;
+    border-color: var(--border-strong) !important;
+    color: var(--text-primary) !important;
+  }
+
+  :global(.hero-secondary-action:hover) {
+    background-color: var(--brand-primary-soft) !important;
+    border-color: var(--brand-primary-subtle) !important;
+    color: var(--brand-primary) !important;
+  }
+
+  .hero-trust-row {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+    max-width: 42rem;
+    margin: var(--sp-8) 0 0;
+    padding: var(--sp-5) 0 0;
+    border-top: var(--border-width-hairline) solid var(--border);
+  }
+
+  .trust-item {
+    padding-inline: var(--sp-5);
+    border-left: var(--border-width-hairline) solid var(--border);
+  }
+
+  .trust-item:first-child {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .trust-item dt {
+    font-family: var(--font-display);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-meta);
+    color: var(--text-primary);
+  }
+
+  .trust-item dd {
+    margin: var(--sp-1) 0 0;
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-meta);
+    color: var(--text-secondary);
+  }
+
+  @media (max-width: 1024px) {
+    .hero-grid {
+      grid-template-columns: 1fr;
+      gap: var(--sp-12);
+    }
+
+    .hero-copy {
+      max-width: 46rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    :global(.homepage-hero) {
+      padding-block: var(--sp-10) var(--sp-12);
+    }
+
+    h1 {
+      font-size: clamp(2.55rem, 10vw, 3.25rem);
+    }
+
+    .hero-actions {
+      align-items: stretch;
+      flex-direction: column;
+    }
+
+    :global(.hero-primary-action),
+    :global(.hero-secondary-action) {
+      width: 100%;
+    }
+
+    .hero-trust-row {
+      grid-template-columns: 1fr;
+      gap: var(--sp-4);
+    }
+
+    .trust-item,
+    .trust-item:first-child {
+      padding: 0 0 0 var(--sp-4);
+      border-left: var(--border-width-strong) solid var(--brand-primary);
+    }
+  }
+</style>

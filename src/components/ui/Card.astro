@@ -1,0 +1,37 @@
+---
+interface Props {
+  elevated?: boolean;
+  class?: string;
+}
+
+const { elevated = false, class: className = '' } = Astro.props;
+---
+
+<div class={`card ${elevated ? 'card-elevated' : 'card-flat'} ${className}`}>
+  <slot />
+</div>
+
+<style>
+  .card {
+    padding: var(--sp-card-padding);
+    border-radius: var(--radius-lg);
+    background-color: var(--surface);
+    border: var(--border-width-hairline) solid var(--border);
+    transition:
+      transform var(--mot-standard) var(--ease-emphasis),
+      box-shadow var(--mot-standard) var(--ease-emphasis);
+  }
+
+  .card-flat {
+    box-shadow: none;
+  }
+
+  .card-elevated {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .card-elevated:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-raised);
+  }
+</style>

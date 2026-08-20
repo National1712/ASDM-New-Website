@@ -1,0 +1,36 @@
+:root {
+  /* Width boundaries */
+  --header-height: 4.5rem;
+  --reading-width: 45rem; /* ~720px for optimal line length */
+  --heading-width: 56rem;
+  --content-width: 64rem;
+  --container-standard: 75rem; /* 1200px */
+  --container-wide: 90rem; /* 1440px */
+  --container-max: 100rem;
+  --grid-min: 16rem;
+  --touch-target: 2.75rem;
+}
+
+/* Base structural layout classes */
+.container {
+  width: 100%;
+  max-width: var(--container-standard);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--sp-gutter);
+  padding-right: var(--sp-gutter);
+}
+
+.container-wide {
+  width: 100%;
+  max-width: var(--container-wide);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--sp-gutter);
+  padding-right: var(--sp-gutter);
+}
+
+.section-padding {
+  padding-top: var(--sp-section);
+  padding-bottom: var(--sp-section);
+}

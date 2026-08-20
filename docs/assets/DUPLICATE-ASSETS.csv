@@ -1,0 +1,27 @@
+duplicate_group,asset_id,current_path,duplicate_type,confidence,recommended_master,notes
+DUP-GRP-001,ASSET-AWARDS-024,public/assets/awards/Award-1.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-024,Primary master candidate.
+DUP-GRP-001,ASSET-AWARDS-023,public/assets/awards/Award-1 - Copy.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-024,Duplicate clone; recommend removal from repository.
+DUP-GRP-002,ASSET-AWARDS-028,public/assets/awards/Award-2.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-028,Primary master candidate.
+DUP-GRP-002,ASSET-AWARDS-026,public/assets/awards/Award-2 - Copy.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-028,Duplicate clone; recommend removal from repository.
+DUP-GRP-003,ASSET-AWARDS-029,public/assets/awards/Award-2.webp,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-029,Primary master candidate.
+DUP-GRP-003,ASSET-AWARDS-027,public/assets/awards/Award-2 - Copy.webp,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-029,Duplicate clone; recommend removal from repository.
+DUP-GRP-004,ASSET-AWARDS-032,public/assets/awards/Award-3.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-032,Primary master candidate.
+DUP-GRP-004,ASSET-AWARDS-030,public/assets/awards/Award-3 - Copy.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-032,Duplicate clone; recommend removal from repository.
+DUP-GRP-005,ASSET-AWARDS-033,public/assets/awards/Award-3.webp,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-033,Primary master candidate.
+DUP-GRP-005,ASSET-AWARDS-031,public/assets/awards/Award-3 - Copy.webp,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-033,Duplicate clone; recommend removal from repository.
+DUP-GRP-006,ASSET-AWARDS-036,public/assets/awards/Award-4.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-036,Primary master candidate.
+DUP-GRP-006,ASSET-AWARDS-034,public/assets/awards/Award-4 - Copy.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-036,Duplicate clone; recommend removal from repository.
+DUP-GRP-007,ASSET-AWARDS-037,public/assets/awards/Award-4.webp,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-037,Primary master candidate.
+DUP-GRP-007,ASSET-AWARDS-035,public/assets/awards/Award-4 - Copy.webp,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-037,Duplicate clone; recommend removal from repository.
+DUP-GRP-008,ASSET-AWARDS-040,public/assets/awards/Award-5.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-040,Primary master candidate.
+DUP-GRP-008,ASSET-AWARDS-038,public/assets/awards/Award-5 - Copy.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-040,Duplicate clone; recommend removal from repository.
+DUP-GRP-009,ASSET-AWARDS-041,public/assets/awards/Award-5.webp,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-041,Primary master candidate.
+DUP-GRP-009,ASSET-AWARDS-039,public/assets/awards/Award-5 - Copy.webp,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-041,Duplicate clone; recommend removal from repository.
+DUP-GRP-010,ASSET-AWARDS-044,public/assets/awards/Award-6.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-044,Primary master candidate.
+DUP-GRP-010,ASSET-AWARDS-042,public/assets/awards/Award-6 - Copy.png,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-044,Duplicate clone; recommend removal from repository.
+DUP-GRP-011,ASSET-AWARDS-045,public/assets/awards/Award-6.webp,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-045,Primary master candidate.
+DUP-GRP-011,ASSET-AWARDS-043,public/assets/awards/Award-6 - Copy.webp,EXACT BINARY DUPLICATE,HIGH,ASSET-AWARDS-045,Duplicate clone; recommend removal from repository.
+DUP-GRP-012,ASSET-HOMEPAGE-145,public/assets/homepage/hero/Banner-4 (3).jpg,EXACT BINARY DUPLICATE,HIGH,ASSET-HOMEPAGE-145,Primary master candidate.
+DUP-GRP-012,ASSET-HOMEPAGE-147,public/assets/homepage/hero/Banner-4 (4).jpg,EXACT BINARY DUPLICATE,HIGH,ASSET-HOMEPAGE-145,Duplicate clone; recommend removal from repository.
+DUP-GRP-013,ASSET-HOMEPAGE-146,public/assets/homepage/hero/Banner-4 (3).webp,EXACT BINARY DUPLICATE,HIGH,ASSET-HOMEPAGE-146,Primary master candidate.
+DUP-GRP-013,ASSET-HOMEPAGE-148,public/assets/homepage/hero/Banner-4 (4).webp,EXACT BINARY DUPLICATE,HIGH,ASSET-HOMEPAGE-146,Duplicate clone; recommend removal from repository.

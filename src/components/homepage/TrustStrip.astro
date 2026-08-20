@@ -1,0 +1,221 @@
+---
+const trustStats = {
+  heading: 'Trusted by Students.',
+  headingRed: 'Proven through Practice.',
+  stats: [
+    { value: 'Live', label: 'Classroom training format' },
+    { value: 'AI', label: 'Workflow-enabled curriculum' },
+    { value: 'Projects', label: 'Practical learning focus' },
+    { value: 'Support', label: 'Career-readiness guidance' },
+  ],
+};
+---
+
+<div class="trust-strip">
+  <div class="wave-container" aria-hidden="true">
+    <svg
+      viewBox="0 0 1440 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
+    >
+      <path
+        d="M0 40H1440V15C1200 -5 960 -5 720 15C480 35 240 35 0 15V40Z"
+        fill="var(--surface)"></path>
+    </svg>
+  </div>
+
+  <div class="strip-content">
+    <div class="strip-container">
+      <div class="strip-grid">
+        <!-- Brand/Outcome Statement -->
+        <div class="strip-statement">
+          <h3 class="statement-main">{trustStats.heading}</h3>
+          <h3 class="statement-sub">{trustStats.headingRed}</h3>
+        </div>
+
+        <!-- Divider line for desktop -->
+        <div class="strip-divider" aria-hidden="true"></div>
+
+        <!-- Factual Stats Grid -->
+        <div class="stats-row">
+          {
+            trustStats.stats.map((stat, index) => (
+              <div class="stat-col">
+                <span class="stat-value">{stat.value}</span>
+                <span class="stat-label">{stat.label}</span>
+                {index < trustStats.stats.length - 1 && (
+                  <div class="col-divider" aria-hidden="true" />
+                )}
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .trust-strip {
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    z-index: 10;
+    background-color: transparent;
+  }
+
+  .wave-container {
+    position: absolute;
+    top: -2.45rem;
+    left: 0;
+    width: 100%;
+    height: 2.5rem;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  .wave-container svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .strip-content {
+    background-color: var(--surface);
+    padding-block: clamp(2rem, 3vw, 3rem);
+    border-bottom: var(--border-width-hairline) solid var(--border);
+  }
+
+  .strip-container {
+    max-width: var(--container-standard);
+    margin: 0 auto;
+    padding-inline: var(--sp-gutter);
+  }
+
+  .strip-grid {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+    gap: var(--sp-8);
+  }
+
+  .strip-statement {
+    min-width: 14rem;
+  }
+
+  .statement-main {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: var(--fs-h3);
+    line-height: var(--lh-heading);
+    font-weight: var(--fw-bold);
+    color: var(--text-primary);
+  }
+
+  .statement-sub {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: var(--fs-h3);
+    line-height: var(--lh-heading);
+    font-weight: var(--fw-bold);
+    color: var(--brand-primary);
+  }
+
+  .strip-divider {
+    width: 1px;
+    height: 3.5rem;
+    background-color: var(--border);
+  }
+
+  .stats-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--sp-4);
+    width: 100%;
+  }
+
+  .stat-col {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-1);
+    flex: 1;
+    position: relative;
+    padding-inline-end: var(--sp-4);
+  }
+
+  .stat-value {
+    font-family: var(--font-display);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    color: var(--text-primary);
+    line-height: var(--lh-display);
+    white-space: nowrap;
+  }
+
+  .stat-label {
+    font-size: var(--fs-body-sm);
+    line-height: var(--lh-meta);
+    color: var(--text-secondary);
+    font-weight: var(--fw-medium);
+    max-width: 13rem;
+  }
+
+  .col-divider {
+    position: absolute;
+    right: 0;
+    top: 15%;
+    height: 70%;
+    width: 1px;
+    background-color: var(--border);
+  }
+
+  @media (max-width: 1024px) {
+    .strip-grid {
+      grid-template-columns: 1fr;
+      gap: var(--sp-6);
+      text-align: center;
+    }
+
+    .strip-statement {
+      min-width: 0;
+    }
+
+    .strip-divider {
+      display: none;
+    }
+
+    .stats-row {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--sp-6) var(--sp-4);
+    }
+
+    .stat-col {
+      flex: 0 0 calc(50% - var(--sp-4));
+      align-items: center;
+      text-align: center;
+      padding-inline-end: 0;
+    }
+
+    .col-divider {
+      display: none;
+    }
+  }
+
+  @media (max-width: 580px) {
+    .stats-row {
+      flex-direction: column;
+      gap: var(--sp-6);
+    }
+
+    .stat-col {
+      flex: 1 0 100%;
+    }
+
+    .stat-label {
+      max-width: 100%;
+    }
+  }
+</style>

@@ -1,0 +1,12 @@
+url,target_keyword,search_intent,local_targeting_overlap
+"https://www.asdm.co.in/","digital marketing course in ahmedabad","transactional","Primary target is Ahmedabad. Severe cannibalisation from `/advace-digital-marketing-program` and `/professional-program-in-advance-digital-marketing`."
+"https://www.asdm.co.in/about-us","about asdm institute","navigational","None (Brand-specific navigational page serving all campuses)."
+"https://www.asdm.co.in/digital-marketing-course-in-surat","digital marketing course in surat","transactional","Primary target is Surat. Contains some Ahmedabad FAQ content, but structurally isolated for Surat local intent."
+"https://www.asdm.co.in/placement","asdm placements recruiter list","navigational","None. Combines outcomes across Ahmedabad and Surat."
+"https://www.asdm.co.in/contact-us","asdm campus locations phone numbers","navigational","Lists addresses and maps for Ahmedabad (HO), Naroda, and Surat."
+"https://www.asdm.co.in/faq","digital marketing course questions","informational","Contains duplicate FAQ entries from both Ahmedabad and Surat pages."
+"https://www.asdm.co.in/seo-course-in-ahmedabad","seo course in ahmedabad","transactional","Focuses purely on Ahmedabad. Minor overlap with general digital marketing course search intent."
+"https://www.asdm.co.in/digital-marketing-course-in-mumbai","digital marketing course in mumbai","transactional","Targets Mumbai online market. Overlaps with local offline programs because meta description claims ""offline and online""."
+"https://www.asdm.co.in/ecommerce-course","ecommerce marketing course","transactional","Aims at Ahmedabad and Surat students but targets broad keyword."
+"https://www.asdm.co.in/advace-digital-marketing-program","digital marketing course in ahmedabad","transactional","Severe 100% overlap/cannibalisation with the homepage since it is an exact content clone."
+"https://www.asdm.co.in/professional-program-in-advance-digital-marketing","digital marketing course in ahmedabad","transactional","Severe 100% overlap/cannibalisation with the homepage since it is an exact content clone."

@@ -1,0 +1,49 @@
+---
+interface Props {
+  gap?: '1' | '2' | '3' | '4' | '6' | '8';
+  align?: 'start' | 'center' | 'end';
+  class?: string;
+}
+
+const { gap = '4', align = 'center', class: className = '' } = Astro.props;
+---
+
+<div class={`cluster gap-${gap} align-${align} ${className}`}>
+  <slot />
+</div>
+
+<style>
+  .cluster {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gap-1 {
+    gap: var(--sp-1);
+  }
+  .gap-2 {
+    gap: var(--sp-2);
+  }
+  .gap-3 {
+    gap: var(--sp-3);
+  }
+  .gap-4 {
+    gap: var(--sp-4);
+  }
+  .gap-6 {
+    gap: var(--sp-6);
+  }
+  .gap-8 {
+    gap: var(--sp-8);
+  }
+
+  .align-start {
+    align-items: flex-start;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .align-end {
+    align-items: flex-end;
+  }
+</style>

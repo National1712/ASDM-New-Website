@@ -1,0 +1,22 @@
+:root {
+  /* Spacing Scale (4px-based micro-scale) */
+  --sp-1: 0.25rem; /* 4px */
+  --sp-2: 0.5rem; /* 8px */
+  --sp-3: 0.75rem; /* 12px */
+  --sp-4: 1rem; /* 16px */
+  --sp-5: 1.25rem; /* 20px */
+  --sp-6: 1.5rem; /* 24px */
+  --sp-8: 2rem; /* 32px */
+  --sp-10: 2.5rem; /* 40px */
+  --sp-12: 3rem; /* 48px */
+  --sp-16: 4rem; /* 64px */
+  --sp-20: 5rem; /* 80px */
+  --sp-24: 6rem; /* 96px */
+  --sp-32: 8rem; /* 128px */
+
+  --sp-section: clamp(4rem, 8vw + 1rem, 8rem);
+  --sp-section-compact: clamp(2.5rem, 5vw, 5rem);
+  --sp-card-padding: clamp(1rem, 2vw + 0.5rem, 2rem);
+  --sp-component-gap: clamp(0.75rem, 1vw + 0.5rem, 1.5rem);
+  --sp-gutter: clamp(1rem, 3vw, 2rem);
+}

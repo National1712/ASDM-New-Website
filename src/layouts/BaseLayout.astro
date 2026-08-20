@@ -1,0 +1,66 @@
+---
+import SiteHeader from '../components/global/SiteHeader.astro';
+import SiteFooter from '../components/global/SiteFooter.astro';
+import '../styles/global.css';
+import '../styles/utilities.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  noindex?: boolean;
+  theme?: 'light' | 'dark';
+}
+
+const {
+  title,
+  description = 'ASDM website redesign foundation.',
+  canonical,
+  noindex = false,
+  theme = 'light',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-theme={theme}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <meta name="description" content={description} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <title>{title}</title>
+    <slot name="head" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <SiteHeader />
+
+    <main id="main-content" tabindex="-1">
+      <slot />
+    </main>
+
+    <SiteFooter />
+
+    <style>
+      .skip-link {
+        display: inline-block;
+        background-color: var(--brand-primary);
+        color: #ffffff;
+        padding: var(--sp-2) var(--sp-4);
+        border-radius: var(--radius-sm);
+        position: absolute;
+        top: var(--sp-2);
+        left: var(--sp-2);
+        z-index: 1000;
+        transform: translateY(-150%);
+        transition: transform var(--mot-fast) var(--ease-emphasis);
+      }
+      .skip-link:focus-visible {
+        transform: translateY(0);
+      }
+    </style>
+  </body>
+</html>

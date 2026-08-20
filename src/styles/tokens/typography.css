@@ -1,0 +1,37 @@
+:root {
+  --font-display:
+    'InterVariable', 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-body:
+    'InterVariable', 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+  --fs-display-xl: clamp(2.75rem, 4.4vw + 1rem, 5.25rem);
+  --fs-display-lg: clamp(2.25rem, 3.2vw + 1rem, 4rem);
+  --fs-h1: clamp(2rem, 2.4vw + 0.9rem, 3.25rem);
+  --fs-h2: clamp(1.6rem, 1.8vw + 0.8rem, 2.5rem);
+  --fs-h3: clamp(1.3rem, 1vw + 0.9rem, 1.75rem);
+  --fs-h4: clamp(1.1rem, 0.5vw + 1rem, 1.35rem);
+
+  --fs-body-lg: clamp(1.05rem, 0.5vw + 0.95rem, 1.25rem);
+  --fs-body: 1rem;
+  --fs-body-sm: 0.875rem;
+  --fs-label: 0.8125rem;
+  --fs-caption: 0.75rem;
+  --fs-eyebrow: var(--fs-caption);
+  --fs-button: var(--fs-body-sm);
+  --fs-nav: var(--fs-body-sm);
+  --fs-statistics: clamp(2rem, 2.2vw + 1rem, 3.5rem);
+
+  --lh-display: 1.1;
+  --lh-heading: 1.2;
+  --lh-body: 1.6;
+  --lh-meta: 1.4;
+
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --ls-tight: 0;
+  --ls-normal: 0;
+  --ls-wide: 0.04em;
+}

@@ -1,0 +1,220 @@
+---
+import { mainNavigation } from '../../data/navigation';
+---
+
+<div class="mobile-nav-wrapper">
+  <button
+    class="mobile-menu-trigger"
+    aria-expanded="false"
+    aria-controls="mobile-menu"
+    aria-label="Open navigation menu"
+  >
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+  <div
+    id="mobile-menu"
+    class="mobile-menu-drawer sr-only"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Mobile navigation menu"
+  >
+    <nav class="mobile-nav" aria-label="Primary navigation">
+      <ul class="mobile-nav-list">
+        {
+          mainNavigation.map((item) => (
+            <li class="mobile-nav-item">
+              <a href={item.href} class="mobile-nav-link">
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <div class="mobile-actions" aria-label="Mobile header actions">
+      <a href="/contact" class="mobile-action mobile-action-primary">Brochure</a
+      >
+      <a href="tel:+919327967701" class="mobile-action mobile-action-secondary"
+        >Call 9327967701</a
+      >
+    </div>
+  </div>
+</div>
+
+<script>
+  const trigger = document.querySelector(
+    '.mobile-menu-trigger'
+  ) as HTMLButtonElement;
+  const drawer = document.querySelector(
+    '.mobile-menu-drawer'
+  ) as HTMLDivElement;
+
+  if (trigger && drawer) {
+    const focusableSelector =
+      'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
+    const closeMenu = () => {
+      trigger.setAttribute('aria-expanded', 'false');
+      trigger.setAttribute('aria-label', 'Open navigation menu');
+      trigger.classList.remove('menu-active');
+      drawer.classList.add('sr-only');
+      document.body.classList.remove('menu-open');
+    };
+
+    const openMenu = () => {
+      trigger.setAttribute('aria-expanded', 'true');
+      trigger.setAttribute('aria-label', 'Close navigation menu');
+      trigger.classList.add('menu-active');
+      drawer.classList.remove('sr-only');
+      document.body.classList.add('menu-open');
+      const firstFocusable = drawer.querySelector(
+        focusableSelector
+      ) as HTMLElement | null;
+      firstFocusable?.focus();
+    };
+
+    trigger.addEventListener('click', () => {
+      const expanded = trigger.getAttribute('aria-expanded') === 'true';
+      if (expanded) closeMenu();
+      else openMenu();
+    });
+
+    window.addEventListener('keydown', (e) => {
+      if (
+        e.key === 'Escape' &&
+        trigger.getAttribute('aria-expanded') === 'true'
+      ) {
+        closeMenu();
+        trigger.focus();
+      }
+    });
+
+    drawer.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', closeMenu);
+    });
+  }
+</script>
+
+<style>
+  .mobile-nav-wrapper {
+    position: relative;
+  }
+
+  .mobile-menu-trigger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: var(--sp-2);
+    width: 2.75rem;
+    height: 2.75rem;
+    z-index: 100;
+  }
+
+  .hamburger-box {
+    position: relative;
+    width: 1.5rem;
+    height: 1.25rem;
+  }
+
+  .hamburger-inner,
+  .hamburger-inner::before,
+  .hamburger-inner::after {
+    position: absolute;
+    width: 1.5rem;
+    height: 2px;
+    background-color: var(--text-primary);
+    transition: transform var(--mot-fast) var(--ease-emphasis);
+  }
+
+  .hamburger-inner {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .hamburger-inner::before {
+    content: '';
+    top: -6px;
+  }
+
+  .hamburger-inner::after {
+    content: '';
+    bottom: -6px;
+  }
+
+  .menu-active .hamburger-inner {
+    transform: rotate(45deg);
+  }
+
+  .menu-active .hamburger-inner::before {
+    transform: translateY(6px) rotate(-90deg);
+  }
+
+  .menu-active .hamburger-inner::after {
+    transform: translateY(-6px) rotate(-90deg);
+  }
+
+  .mobile-menu-drawer {
+    position: fixed;
+    inset: var(--header-height) 0 0 0;
+    width: 100vw;
+    min-height: calc(100dvh - var(--header-height));
+    background-color: var(--canvas);
+    z-index: 120;
+    padding: var(--sp-8);
+    overflow-y: auto;
+    box-shadow: var(--shadow-floating);
+  }
+
+  .mobile-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-6);
+  }
+
+  .mobile-nav-link {
+    font-family: var(--font-display);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    color: var(--text-primary);
+  }
+
+  .mobile-nav-link:hover,
+  .mobile-nav-link:focus-visible {
+    color: var(--brand-primary);
+  }
+
+  .mobile-actions {
+    display: grid;
+    gap: var(--sp-3);
+    margin-top: var(--sp-8);
+  }
+
+  .mobile-action {
+    display: inline-flex;
+    min-height: var(--touch-target);
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-body);
+    font-size: var(--fs-button);
+    font-weight: var(--fw-semibold);
+  }
+
+  .mobile-action-primary {
+    background-color: var(--brand-primary);
+    color: #ffffff;
+  }
+
+  .mobile-action-secondary {
+    background-color: var(--brand-primary-soft);
+    color: var(--brand-primary);
+  }
+</style>

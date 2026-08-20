@@ -1,0 +1,56 @@
+---
+interface Props {
+  name: string;
+  placeholder?: string;
+  required?: boolean;
+  disabled?: boolean;
+  rows?: number;
+  id?: string;
+}
+
+const {
+  name,
+  placeholder,
+  required = false,
+  disabled = false,
+  rows = 4,
+  id,
+  ...rest
+} = Astro.props;
+---
+
+<textarea
+  name={name}
+  id={id}
+  placeholder={placeholder}
+  required={required}
+  disabled={disabled}
+  rows={rows}
+  class="textarea-primitive"
+  {...rest}></textarea>
+
+<style>
+  .textarea-primitive {
+    width: 100%;
+    padding: var(--sp-3) var(--sp-4);
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    background-color: var(--surface);
+    color: var(--text-primary);
+    border: var(--border-width-hairline) solid var(--border);
+    border-radius: var(--radius-md);
+    transition: border-color var(--mot-fast) var(--ease-emphasis);
+    resize: vertical;
+  }
+
+  .textarea-primitive:focus {
+    border-color: var(--brand-primary);
+    outline: none;
+  }
+
+  .textarea-primitive[disabled] {
+    background-color: var(--canvas);
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+</style>
