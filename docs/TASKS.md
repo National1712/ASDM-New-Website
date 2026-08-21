@@ -1,11 +1,11 @@
 # Tasks Tracking Board
 
-Status: `PHASE 7.8 INSTITUTIONAL HEADER REBUILD COMPLETE`
+Status: `PHASE 7.9 HEADER MENU TRIM COMPLETE`
 Last updated: 2026-08-21
 
 ## Summary
 
-- Complete: 19
+- Complete: 20
 - In progress: 0
 - Not started: 4
 - Blocked: 0
@@ -125,6 +125,12 @@ Rebuilt only the global header composition after owner rejection into a premium 
 Status: `COMPLETE`
 
 Rebuilt only the global header after owner rejection using current ASDM navigation terminology from the official website: Home, About Us, Digital Marketing Courses, Placement, Contact Us, and Brochure. Removed the desktop phone utility, divider, top accent line, and `Book Free Counselling` header CTA; replaced the header action with compact `Enquire Now`, kept Brochure as a normal nav item, compacted the Digital Marketing Courses dropdown, chose the `1100px` mobile-navigation breakpoint, preserved verified mobile Call/WhatsApp actions, and left the homepage hero unchanged.
+
+### TASK-009I: Phase 7.9 Header Menu Trim
+
+Status: `COMPLETE`
+
+Removed `Brochure` from the shared main navigation so the item no longer appears in the desktop header or mobile drawer. Preserved the existing header structure, conversion actions, course dropdown, and homepage hero unchanged.
 
 ## Not Started
 

@@ -5,8 +5,15 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## 🚀 Status Board
 
-- **Current Version**: `0.7.8-alpha.0`
-- **Build Status**: `PASSING` (Phase 7.8 institutional header rebuild validation)
+- **Current Version**: `0.7.9-alpha.0`
+- **Build Status**: `PASSING` (Phase 7.9 header menu trim validation)
+
+## [0.7.9-alpha.0] - 2026-08-21
+
+### Updated
+
+- Removed `Brochure` from the shared main header navigation so it no longer appears in desktop or mobile menus.
+- Preserved the existing header structure, CTA actions, dropdown behaviour, and homepage hero unchanged.
 
 ## [0.7.8-alpha.0] - 2026-08-21
 

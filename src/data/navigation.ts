@@ -13,7 +13,6 @@ export const mainNavigation: NavItem[] = [
   { label: 'Digital Marketing Courses', href: '/courses' },
   { label: 'Placement', href: '/placements' },
   { label: 'Contact Us', href: '/contact' },
-  { label: 'Brochure', href: '/contact' },
 ];
 
 export const courseNavigation = {
