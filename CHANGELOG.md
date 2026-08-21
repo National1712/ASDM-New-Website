@@ -5,8 +5,19 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## 🚀 Status Board
 
-- **Current Version**: `0.7.6-alpha.0`
-- **Build Status**: `PASSING` (Phase 7.6 precision header validation)
+- **Current Version**: `0.7.7-alpha.0`
+- **Build Status**: `PASSING` (Phase 7.7 flagship header composition validation)
+
+## [0.7.7-alpha.0] - 2026-08-21
+
+### Updated
+
+- Rebuilt the global header composition into a premium institutional layout with a left logo/navigation zone and separated right-side utility zone.
+- Added the exact 2px red-to-warm-to-purple top brand accent line while keeping the shell white with a restrained border and blur.
+- Updated desktop/tablet header proportions to a 79px rendered shell with 150-165px logo sizing, 24px logo-to-navigation grouping, four focused primary links, and a compact Courses dropdown using existing route candidates only.
+- Refined the phone/CTA cluster with a red phone icon, divider, and flat red `Book Free Counselling` button without gradients or heavy shadows.
+- Tightened the mobile shell to 67px rendered height, kept the phone out of the mobile header, and preserved the drawer sequence requested by the owner.
+- Preserved the homepage hero unchanged.
 
 ## [0.7.6-alpha.0] - 2026-08-21
 

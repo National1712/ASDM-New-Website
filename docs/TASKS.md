@@ -1,11 +1,11 @@
 # Tasks Tracking Board
 
-Status: `PHASE 7.6 PRECISION HEADER CORRECTION COMPLETE`
+Status: `PHASE 7.7 FLAGSHIP HEADER COMPOSITION COMPLETE`
 Last updated: 2026-08-21
 
 ## Summary
 
-- Complete: 17
+- Complete: 18
 - In progress: 0
 - Not started: 4
 - Blocked: 0
@@ -113,6 +113,12 @@ Refined only the global header/navigation against the approved ASDM Signature De
 Status: `COMPLETE`
 
 Corrected only the global header after owner visual rejection: restored ASDM-aligned information architecture, removed the unimplemented Resources primary header item, added a compact Courses dropdown using documented programme/location route candidates, tightened desktop/mobile header heights, refined phone and CTA proportions, normalized actual available typography stack usage, and visually verified desktop dropdown and mobile drawer states against the homepage hero.
+
+### TASK-009G: Phase 7.7 Flagship Header Composition
+
+Status: `COMPLETE`
+
+Rebuilt only the global header composition after owner rejection into a premium institutional structure: left-side logo and primary navigation group, separated right-side phone and counselling CTA utility, exact red top accent, 79px desktop/tablet shell, 67px mobile shell, approved logo sizing, compact Courses dropdown, and mobile drawer with only the requested navigation and action items. Preserved the homepage hero unchanged.
 
 ## Not Started
 

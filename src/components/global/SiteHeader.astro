@@ -6,6 +6,7 @@ import MobileNavigation from './MobileNavigation.astro';
 ---
 
 <header class="site-header" data-site-header>
+  <div class="brand-accent" aria-hidden="true"></div>
   <div class="header-container">
     <a href="/" class="logo-link" aria-label="ASDM home">
       <Logo />
@@ -24,6 +25,7 @@ import MobileNavigation from './MobileNavigation.astro';
         </svg>
         <span>93279 67701</span>
       </a>
+      <span class="header-action-divider" aria-hidden="true"></span>
       <Button href="/contact" variant="primary" size="md" class="header-cta"
         >Book Free Counselling</Button
       >
@@ -37,7 +39,7 @@ import MobileNavigation from './MobileNavigation.astro';
 
 <style>
   .site-header {
-    min-height: 4.5rem;
+    min-height: 4.875rem;
     position: sticky;
     top: 0;
     z-index: 200;
@@ -48,17 +50,30 @@ import MobileNavigation from './MobileNavigation.astro';
     backdrop-filter: blur(12px);
   }
 
+  .brand-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(
+      90deg,
+      var(--brand-primary) 0%,
+      var(--brand-accent) 58%,
+      var(--brand-secondary) 100%
+    );
+  }
+
   .header-container {
     width: 100%;
     max-width: var(--container-wide);
     margin: 0 auto;
-    min-height: 4.5rem;
+    min-height: 4.875rem;
     padding: 0 var(--sp-gutter);
     display: grid;
-    grid-template-columns: auto minmax(0, auto) auto;
+    grid-template-columns: auto minmax(0, 1fr) auto;
     align-items: center;
-    justify-content: space-between;
-    column-gap: clamp(var(--sp-8), 4vw, var(--sp-16));
+    column-gap: var(--sp-6);
   }
 
   .logo-link {
@@ -69,24 +84,24 @@ import MobileNavigation from './MobileNavigation.astro';
   }
 
   .nav-desktop-only {
-    justify-self: center;
+    justify-self: start;
   }
 
   .cta-desktop-only {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: var(--sp-3);
+    gap: var(--sp-4);
     justify-self: end;
   }
 
   .header-utility {
-    min-height: 2.625rem;
+    min-height: 2.75rem;
     display: inline-flex;
     align-items: center;
     gap: var(--sp-2);
     color: var(--text-secondary);
-    font-size: 0.8125rem;
+    font-size: 0.84375rem;
     font-weight: 500;
     line-height: 1;
     letter-spacing: -0.01em;
@@ -101,8 +116,8 @@ import MobileNavigation from './MobileNavigation.astro';
   }
 
   .phone-icon {
-    width: 1rem;
-    height: 1rem;
+    width: 0.9375rem;
+    height: 0.9375rem;
     fill: none;
     stroke: var(--brand-primary);
     stroke-width: 1.8;
@@ -110,10 +125,16 @@ import MobileNavigation from './MobileNavigation.astro';
     stroke-linejoin: round;
   }
 
+  .header-action-divider {
+    width: var(--border-width-hairline);
+    height: 1.25rem;
+    background-color: var(--border);
+  }
+
   :global(.header-cta) {
-    min-width: 10.875rem;
-    height: 2.75rem;
-    padding-inline: var(--sp-5);
+    min-width: 11.25rem;
+    height: 2.625rem;
+    padding-inline: 1.375rem;
     border-radius: var(--radius-md);
     font-size: 0.875rem;
     font-weight: 600;
@@ -124,15 +145,15 @@ import MobileNavigation from './MobileNavigation.astro';
     display: none;
   }
 
-  @media (max-width: 1040px) {
+  @media (max-width: 980px) {
     .site-header {
-      min-height: 4.25rem;
+      min-height: 4.125rem;
     }
 
     .header-container {
       display: flex;
       justify-content: space-between;
-      min-height: 4.25rem;
+      min-height: 4.125rem;
     }
 
     .nav-desktop-only,

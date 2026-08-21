@@ -105,8 +105,8 @@ Use actual ASDM logo assets from `public/assets/brand/`.
 
 Logo target sizing:
 
-- Desktop header: `clamp(8.25rem, 9.5vw, 9.0625rem)`
-- Mobile header: approximately `7rem`
+- Desktop header: `clamp(9.375rem, 11vw, 10.3125rem)`
+- Mobile header: approximately `8.25rem` to `8.75rem`
 - Footer: approximately `10.5rem`
 - Mobile footer: approximately `9.75rem`
 
@@ -158,17 +158,19 @@ Do not create slightly different copies of existing components. New one-off styl
 
 ## Header Standard
 
-The global header should remain compact, premium, and conversion-focused.
+The global header should remain premium, institutional, and conversion-focused.
 
-- Default height target: approximately `4.5rem`
+- Desktop/tablet rendered height target: `76px` to `80px`
+- Mobile rendered height target: `66px` to `68px`
 - Surface: white or very subtle neutral
+- Top accent: exactly one `2px` red-to-warm-to-purple brand line
 - Border: refined bottom hairline
 - Behaviour: sticky is acceptable when visually calm
-- Logo: approved primary SVG on the left
-- Desktop nav: focused, neutral, medium-weight text
-- Primary CTA: red `Book Free Counselling`
-- Secondary utility: subtle call/contact action if required
-- Mobile: logo left, menu trigger right, accessible drawer with nav links and primary CTA
+- Logo: approved primary SVG on the left, visually dominant enough for institutional recognition
+- Desktop nav: focused, neutral, medium-weight text grouped close to the logo
+- Primary CTA: flat red `Book Free Counselling`
+- Secondary utility: phone icon and number separated from the CTA by a subtle divider
+- Mobile: logo left, menu trigger right, no phone in the header bar, accessible drawer with nav links and primary CTA/call actions
 
 Do not use a red, purple, gradient, or heavily shadowed navbar.
 
