@@ -167,9 +167,9 @@ The global header should remain premium, institutional, and conversion-focused.
 - Border: refined bottom hairline
 - Behaviour: sticky is acceptable when visually calm
 - Logo: approved primary SVG on the left, visually dominant enough for institutional recognition
-- Desktop nav: focused, neutral, medium-weight text grouped close to the logo
+- Desktop nav: focused, neutral, medium-weight text, visually centered when the header includes balanced action buttons
 - Primary CTA: compact flat red `Enquire Now`
-- Secondary utility: avoid desktop phone/divider clusters in the header
+- Secondary utility: when required, use a premium bordered call button with a line phone icon and verified number; never use a divider or plain phone text cluster
 - Mobile: logo left, menu trigger right, no phone in the header bar, accessible drawer with nav links and Enquire/Call/WhatsApp actions
 
 Do not use a red, purple, gradient, or heavily shadowed navbar.

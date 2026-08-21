@@ -16,8 +16,19 @@ import MobileNavigation from './MobileNavigation.astro';
     </div>
 
     <div class="cta-desktop-only" aria-label="Header actions">
+      <a href="tel:+919327967701" class="header-call">
+        <svg class="header-action-icon" viewBox="0 0 20 20" aria-hidden="true">
+          <path
+            d="M6.4 2.8 8 6.4 6.7 7.7c.8 1.7 2.1 3.1 3.8 3.9l1.4-1.3 3.5 1.6-.6 3.1c-.2.8-.8 1.3-1.6 1.3C7.7 16.3 3.4 12 3.4 6.5c0-.8.5-1.4 1.3-1.6l1.7-.1Z"
+          ></path>
+        </svg>
+        <span>93279 67701</span>
+      </a>
       <Button href="/contact" variant="primary" size="md" class="header-cta"
-        >Enquire Now</Button
+        ><span>Enquire Now</span>
+        <svg class="header-action-icon" viewBox="0 0 20 20" aria-hidden="true">
+          <path d="M6 14 14 6M8 6h6v6"></path>
+        </svg></Button
       >
     </div>
 
@@ -47,7 +58,7 @@ import MobileNavigation from './MobileNavigation.astro';
     min-height: 4.75rem;
     padding: 0 var(--sp-gutter);
     display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     align-items: center;
     column-gap: var(--sp-6);
   }
@@ -60,23 +71,67 @@ import MobileNavigation from './MobileNavigation.astro';
   }
 
   .nav-desktop-only {
-    justify-self: start;
+    justify-self: center;
   }
 
   .cta-desktop-only {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap: var(--sp-3);
     justify-self: end;
   }
 
+  .header-call,
   :global(.header-cta) {
-    height: 2.625rem !important;
-    padding-inline: var(--sp-5);
-    border-radius: var(--radius-md);
+    height: 2.75rem !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4375rem;
+    border-radius: 9px;
     font-size: 0.875rem;
-    font-weight: 600;
+    line-height: 1;
     letter-spacing: -0.01em !important;
+  }
+
+  .header-call {
+    padding-inline: var(--sp-4);
+    border: var(--border-width-hairline) solid rgba(17, 24, 39, 0.14);
+    background-color: rgba(255, 255, 255, 0.92);
+    color: var(--text-primary);
+    font-weight: 550;
+    transition:
+      background-color var(--mot-fast) var(--ease-emphasis),
+      border-color var(--mot-fast) var(--ease-emphasis),
+      color var(--mot-fast) var(--ease-emphasis);
+  }
+
+  .header-call:hover,
+  .header-call:focus-visible {
+    background-color: var(--surface);
+    border-color: rgba(17, 24, 39, 0.24);
+    color: var(--text-primary);
+  }
+
+  :global(.header-cta) {
+    padding-inline: 1.125rem;
+    font-weight: 600;
+  }
+
+  .header-action-icon {
+    width: 1rem;
+    height: 1rem;
+    flex: 0 0 auto;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .header-call .header-action-icon {
+    color: var(--brand-primary);
   }
 
   .nav-mobile-only {

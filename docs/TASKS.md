@@ -1,11 +1,11 @@
 # Tasks Tracking Board
 
-Status: `PHASE 7.9 HEADER MENU TRIM COMPLETE`
+Status: `PHASE 7.10 CENTERED HEADER ACTIONS COMPLETE`
 Last updated: 2026-08-21
 
 ## Summary
 
-- Complete: 20
+- Complete: 21
 - In progress: 0
 - Not started: 4
 - Blocked: 0
@@ -131,6 +131,12 @@ Rebuilt only the global header after owner rejection using current ASDM navigati
 Status: `COMPLETE`
 
 Removed `Brochure` from the shared main navigation so the item no longer appears in the desktop header or mobile drawer. Preserved the existing header structure, conversion actions, course dropdown, and homepage hero unchanged.
+
+### TASK-009J: Phase 7.10 Centered Header Actions
+
+Status: `COMPLETE`
+
+Rebalanced the desktop header into a true left/center/right grid so navigation is visually centered, increased menu typography to 15px, added a premium secondary call button with the verified `93279 67701` number and phone icon, added an arrow icon to `Enquire Now`, aligned both desktop actions to one component family, and updated mobile drawer actions with matching icons. Preserved the removed Brochure menu state and left the homepage hero unchanged.
 
 ## Not Started
 

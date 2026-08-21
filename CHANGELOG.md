@@ -5,8 +5,19 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## 🚀 Status Board
 
-- **Current Version**: `0.7.9-alpha.0`
-- **Build Status**: `PASSING` (Phase 7.9 header menu trim validation)
+- **Current Version**: `0.7.10-alpha.0`
+- **Build Status**: `PASSING` (Phase 7.10 centered header actions validation)
+
+## [0.7.10-alpha.0] - 2026-08-21
+
+### Updated
+
+- Rebalanced the desktop header into a true left/center/right grid so the main navigation sits visually centered in the header.
+- Increased desktop navigation typography to 15px with stronger neutral text colour and cohesive menu spacing.
+- Added a premium secondary call button showing the verified `93279 67701` number with a line phone icon.
+- Added a line arrow icon to the red `Enquire Now` button and aligned both desktop action buttons to the same height and visual family.
+- Updated mobile drawer actions so `Enquire Now` includes an icon and the call action shows the visible phone number.
+- Preserved the removed `Brochure` menu item state and left the homepage hero unchanged.
 
 ## [0.7.9-alpha.0] - 2026-08-21
 
