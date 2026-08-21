@@ -28,7 +28,7 @@ import { courseNavigation, mainNavigation } from '../../data/navigation';
             <li class="mobile-nav-item">
               <a href={item.href} class="mobile-nav-link">
                 <span>{item.label}</span>
-                {item.label === 'Courses' && (
+                {item.label === 'Digital Marketing Courses' && (
                   <svg
                     class="mobile-chevron"
                     viewBox="0 0 16 16"
@@ -38,7 +38,7 @@ import { courseNavigation, mainNavigation } from '../../data/navigation';
                   </svg>
                 )}
               </a>
-              {item.label === 'Courses' && (
+              {item.label === 'Digital Marketing Courses' && (
                 <ul class="mobile-course-list" aria-label="Course links">
                   {[
                     ...courseNavigation.programmes,
@@ -59,10 +59,14 @@ import { courseNavigation, mainNavigation } from '../../data/navigation';
     </nav>
     <div class="mobile-actions" aria-label="Mobile header actions">
       <a href="/contact" class="mobile-action mobile-action-primary"
-        >Book Free Counselling</a
+        >Enquire Now</a
       >
-      <a href="tel:+919327967701" class="mobile-action mobile-action-secondary"
+      <a href="tel:+919016970734" class="mobile-action mobile-action-secondary"
         >Call ASDM</a
+      >
+      <a
+        href="https://wa.me/919327967701?text=Inquiry%20for%20digital%20marketing%20course"
+        class="mobile-action mobile-action-secondary">WhatsApp</a
       >
     </div>
   </div>
@@ -196,9 +200,9 @@ import { courseNavigation, mainNavigation } from '../../data/navigation';
 
   .mobile-menu-drawer {
     position: fixed;
-    inset: 4.1875rem 0 0 0;
+    inset: 4.125rem 0 0 0;
     width: 100vw;
-    min-height: calc(100dvh - 4.1875rem);
+    min-height: calc(100dvh - 4.125rem);
     background-color: var(--canvas);
     z-index: 120;
     padding: var(--sp-6) var(--sp-gutter) var(--sp-8);

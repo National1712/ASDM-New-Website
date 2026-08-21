@@ -8,10 +8,12 @@ export interface CourseNavItem extends NavItem {
 }
 
 export const mainNavigation: NavItem[] = [
-  { label: 'Courses', href: '/courses' },
-  { label: 'About ASDM', href: '/about' },
-  { label: 'Placements', href: '/placements' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Home', href: '/' },
+  { label: 'About Us', href: '/about' },
+  { label: 'Digital Marketing Courses', href: '/courses' },
+  { label: 'Placement', href: '/placements' },
+  { label: 'Contact Us', href: '/contact' },
+  { label: 'Brochure', href: '/contact' },
 ];
 
 export const courseNavigation = {

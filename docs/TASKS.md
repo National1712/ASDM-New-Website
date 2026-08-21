@@ -1,11 +1,11 @@
 # Tasks Tracking Board
 
-Status: `PHASE 7.7 FLAGSHIP HEADER COMPOSITION COMPLETE`
+Status: `PHASE 7.8 INSTITUTIONAL HEADER REBUILD COMPLETE`
 Last updated: 2026-08-21
 
 ## Summary
 
-- Complete: 18
+- Complete: 19
 - In progress: 0
 - Not started: 4
 - Blocked: 0
@@ -119,6 +119,12 @@ Corrected only the global header after owner visual rejection: restored ASDM-ali
 Status: `COMPLETE`
 
 Rebuilt only the global header composition after owner rejection into a premium institutional structure: left-side logo and primary navigation group, separated right-side phone and counselling CTA utility, exact red top accent, 79px desktop/tablet shell, 67px mobile shell, approved logo sizing, compact Courses dropdown, and mobile drawer with only the requested navigation and action items. Preserved the homepage hero unchanged.
+
+### TASK-009H: Phase 7.8 Institutional Header Rebuild
+
+Status: `COMPLETE`
+
+Rebuilt only the global header after owner rejection using current ASDM navigation terminology from the official website: Home, About Us, Digital Marketing Courses, Placement, Contact Us, and Brochure. Removed the desktop phone utility, divider, top accent line, and `Book Free Counselling` header CTA; replaced the header action with compact `Enquire Now`, kept Brochure as a normal nav item, compacted the Digital Marketing Courses dropdown, chose the `1100px` mobile-navigation breakpoint, preserved verified mobile Call/WhatsApp actions, and left the homepage hero unchanged.
 
 ## Not Started
 

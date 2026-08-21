@@ -5,8 +5,20 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## 🚀 Status Board
 
-- **Current Version**: `0.7.7-alpha.0`
-- **Build Status**: `PASSING` (Phase 7.7 flagship header composition validation)
+- **Current Version**: `0.7.8-alpha.0`
+- **Build Status**: `PASSING` (Phase 7.8 institutional header rebuild validation)
+
+## [0.7.8-alpha.0] - 2026-08-21
+
+### Updated
+
+- Rebuilt the desktop global header from the current ASDM navigation hierarchy while avoiding the old live site's visual design.
+- Restored the header navigation labels to `Home`, `About Us`, `Digital Marketing Courses`, `Placement`, `Contact Us`, and `Brochure`.
+- Removed the rejected desktop phone number utility, vertical divider, top gradient accent line, and `Book Free Counselling` header CTA.
+- Added a single compact red `Enquire Now` CTA and kept `Brochure` as a normal navigation item.
+- Reworked the Digital Marketing Courses dropdown into a compact 420px menu using existing programme/location route candidates only.
+- Switched to mobile navigation at `max-width: 1100px` to avoid crushing the long course label, while preserving drawer actions for `Enquire Now`, `Call ASDM`, and `WhatsApp`.
+- Preserved the homepage hero unchanged.
 
 ## [0.7.7-alpha.0] - 2026-08-21
 
