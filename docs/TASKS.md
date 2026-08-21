@@ -1,11 +1,11 @@
 # Tasks Tracking Board
 
-Status: `PHASE 7.5 HEADER SYSTEM DEPLOYMENT READY`
+Status: `PHASE 7.6 PRECISION HEADER CORRECTION COMPLETE`
 Last updated: 2026-08-21
 
 ## Summary
 
-- Complete: 16
+- Complete: 17
 - In progress: 0
 - Not started: 4
 - Blocked: 0
@@ -107,6 +107,12 @@ Rebuilt only the internal homepage hero preview to follow the owner-provided pre
 Status: `COMPLETE`
 
 Refined only the global header/navigation against the approved ASDM Signature Design System: compact sticky white shell, approved SVG logo sizing, focused five-item navigation, subtle verified phone utility, red `Book Free Counselling` CTA, and polished mobile drawer actions. Expanded `docs/DESIGN-SYSTEM.md` into the canonical UI reference and added concise future AI UI instructions.
+
+### TASK-009F: Phase 7.6 Precision Header Correction
+
+Status: `COMPLETE`
+
+Corrected only the global header after owner visual rejection: restored ASDM-aligned information architecture, removed the unimplemented Resources primary header item, added a compact Courses dropdown using documented programme/location route candidates, tightened desktop/mobile header heights, refined phone and CTA proportions, normalized actual available typography stack usage, and visually verified desktop dropdown and mobile drawer states against the homepage hero.
 
 ## Not Started
 

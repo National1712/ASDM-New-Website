@@ -1,5 +1,5 @@
 ---
-import { mainNavigation } from '../../data/navigation';
+import { courseNavigation, mainNavigation } from '../../data/navigation';
 ---
 
 <div class="mobile-nav-wrapper">
@@ -27,8 +27,31 @@ import { mainNavigation } from '../../data/navigation';
           mainNavigation.map((item) => (
             <li class="mobile-nav-item">
               <a href={item.href} class="mobile-nav-link">
-                {item.label}
+                <span>{item.label}</span>
+                {item.label === 'Courses' && (
+                  <svg
+                    class="mobile-chevron"
+                    viewBox="0 0 16 16"
+                    aria-hidden="true"
+                  >
+                    <path d="m4 6 4 4 4-4" />
+                  </svg>
+                )}
               </a>
+              {item.label === 'Courses' && (
+                <ul class="mobile-course-list" aria-label="Course links">
+                  {[
+                    ...courseNavigation.programmes,
+                    ...courseNavigation.locations,
+                  ].map((course) => (
+                    <li>
+                      <a href={course.href} class="mobile-course-link">
+                        {course.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </li>
           ))
         }
@@ -39,7 +62,7 @@ import { mainNavigation } from '../../data/navigation';
         >Book Free Counselling</a
       >
       <a href="tel:+919327967701" class="mobile-action mobile-action-secondary"
-        >Call 9327967701</a
+        >Call ASDM</a
       >
     </div>
   </div>
@@ -190,17 +213,20 @@ import { mainNavigation } from '../../data/navigation';
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: var(--sp-2);
+    gap: 0;
   }
 
   .mobile-nav-link {
     display: flex;
     min-height: var(--touch-target);
     align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-3);
     border-bottom: var(--border-width-hairline) solid var(--border);
     font-family: var(--font-body);
     font-size: var(--fs-body);
-    font-weight: var(--fw-semibold);
+    font-weight: 500;
+    letter-spacing: -0.01em;
     color: var(--text-primary);
     transition:
       color var(--mot-fast) var(--ease-emphasis),
@@ -209,6 +235,42 @@ import { mainNavigation } from '../../data/navigation';
 
   .mobile-nav-link:hover,
   .mobile-nav-link:focus-visible {
+    outline: 0;
+    color: var(--brand-primary);
+  }
+
+  .mobile-chevron {
+    width: 0.875rem;
+    height: 0.875rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .mobile-course-list {
+    display: grid;
+    gap: var(--sp-1);
+    list-style: none;
+    margin: var(--sp-3) 0 var(--sp-4);
+    padding: 0 0 0 var(--sp-4);
+    border-left: var(--border-width-standard) solid var(--brand-primary-subtle);
+  }
+
+  .mobile-course-link {
+    display: flex;
+    min-height: 2.25rem;
+    align-items: center;
+    font-size: var(--fs-body-sm);
+    font-weight: 500;
+    line-height: var(--lh-meta);
+    color: var(--text-secondary);
+  }
+
+  .mobile-course-link:hover,
+  .mobile-course-link:focus-visible {
+    outline: 0;
     color: var(--brand-primary);
   }
 
@@ -225,8 +287,9 @@ import { mainNavigation } from '../../data/navigation';
     justify-content: center;
     border-radius: var(--radius-sm);
     font-family: var(--font-body);
-    font-size: var(--fs-button);
-    font-weight: var(--fw-semibold);
+    font-size: var(--fs-body-sm);
+    font-weight: 600;
+    letter-spacing: -0.01em;
   }
 
   .mobile-action-primary {

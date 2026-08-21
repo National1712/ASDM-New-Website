@@ -5,8 +5,18 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## 🚀 Status Board
 
-- **Current Version**: `0.7.5-alpha.0`
-- **Build Status**: `PASSING` (Phase 7.5 header validation)
+- **Current Version**: `0.7.6-alpha.0`
+- **Build Status**: `PASSING` (Phase 7.6 precision header validation)
+
+## [0.7.6-alpha.0] - 2026-08-21
+
+### Updated
+
+- Precision-corrected the global header to better match ASDM's approved information architecture and premium hero quality.
+- Reworked desktop navigation to `Courses`, `About ASDM`, `Placements`, and `Contact`, removing the unimplemented `Resources` primary item from the header.
+- Added a compact Courses dropdown using route candidates already documented in the project SEO/site architecture: advanced, professional, ecommerce, Ahmedabad, Surat, and all courses.
+- Tightened header proportions to a 72px desktop shell and 68px mobile shell, refined logo sizing, phone utility treatment, CTA sizing, and restrained navigation focus/hover states.
+- Normalized the typography token stack to the actual available system/inter-compatible stack instead of referencing unloaded local Inter font files.
 
 ## [0.7.5-alpha.0] - 2026-08-21
 

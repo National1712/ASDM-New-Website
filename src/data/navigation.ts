@@ -3,13 +3,52 @@ export interface NavItem {
   href: string;
 }
 
+export interface CourseNavItem extends NavItem {
+  description: string;
+}
+
 export const mainNavigation: NavItem[] = [
   { label: 'Courses', href: '/courses' },
-  { label: 'Why ASDM', href: '/about' },
+  { label: 'About ASDM', href: '/about' },
   { label: 'Placements', href: '/placements' },
-  { label: 'Resources', href: '/resources' },
-  { label: 'About', href: '/about' },
+  { label: 'Contact', href: '/contact' },
 ];
+
+export const courseNavigation = {
+  programmes: [
+    {
+      label: 'Advanced Digital Marketing Program',
+      href: '/courses/advanced',
+      description: 'AI-integrated classroom programme',
+    },
+    {
+      label: 'Professional Digital Marketing Course',
+      href: '/courses/professional',
+      description: 'Longer advanced programme track',
+    },
+    {
+      label: 'E-Commerce Marketing Course',
+      href: '/courses/ecommerce-course',
+      description: 'Specialised ecommerce marketing route',
+    },
+  ],
+  locations: [
+    {
+      label: 'Ahmedabad',
+      href: '/courses',
+      description: 'Primary classroom course hub',
+    },
+    {
+      label: 'Surat',
+      href: '/campuses/surat',
+      description: 'Surat campus course route',
+    },
+  ],
+  allCourses: {
+    label: 'View All Courses',
+    href: '/courses',
+  },
+};
 
 export const footerNavigation = {
   programs: [

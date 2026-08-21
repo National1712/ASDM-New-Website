@@ -105,8 +105,8 @@ Use actual ASDM logo assets from `public/assets/brand/`.
 
 Logo target sizing:
 
-- Desktop header: `clamp(8.75rem, 10vw, 10rem)`
-- Mobile header: approximately `8rem`
+- Desktop header: `clamp(8.25rem, 9.5vw, 9.0625rem)`
+- Mobile header: approximately `7rem`
 - Footer: approximately `10.5rem`
 - Mobile footer: approximately `9.75rem`
 
