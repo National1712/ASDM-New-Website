@@ -5,8 +5,20 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## 🚀 Status Board
 
-- **Current Version**: `0.7.4-alpha.0`
-- **Build Status**: `PASSING` (Phase 7.4 hero redesign validation)
+- **Current Version**: `0.7.5-alpha.0`
+- **Build Status**: `PASSING` (Phase 7.5 header validation)
+
+## [0.7.5-alpha.0] - 2026-08-21
+
+### Added
+
+- Added `docs/AI-UI-INSTRUCTIONS.md` as a concise guardrail for future AI-assisted UI work.
+
+### Updated
+
+- Expanded `docs/DESIGN-SYSTEM.md` into the canonical ASDM visual reference covering brand philosophy, colours, typography, spacing, layout, logo use, components, header standards, responsive behaviour, accessibility, and content discipline.
+- Refined the global header into a compact premium sticky shell with focused navigation, approved SVG logo treatment, subtle phone utility, red `Book Free Counselling` CTA, and polished mobile drawer actions.
+- Updated primary navigation labels to match the approved header structure while preserving existing route targets.
 
 ---
 

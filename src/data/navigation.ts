@@ -4,11 +4,11 @@ export interface NavItem {
 }
 
 export const mainNavigation: NavItem[] = [
-  { label: 'Home', href: '/' },
-  { label: 'About ASDM', href: '/about' },
-  { label: 'Digital Marketing Courses', href: '/courses' },
+  { label: 'Courses', href: '/courses' },
+  { label: 'Why ASDM', href: '/about' },
   { label: 'Placements', href: '/placements' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Resources', href: '/resources' },
+  { label: 'About', href: '/about' },
 ];
 
 export const footerNavigation = {

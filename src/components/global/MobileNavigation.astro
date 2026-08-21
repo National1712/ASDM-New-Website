@@ -35,7 +35,8 @@ import { mainNavigation } from '../../data/navigation';
       </ul>
     </nav>
     <div class="mobile-actions" aria-label="Mobile header actions">
-      <a href="/contact" class="mobile-action mobile-action-primary">Brochure</a
+      <a href="/contact" class="mobile-action mobile-action-primary"
+        >Book Free Counselling</a
       >
       <a href="tel:+919327967701" class="mobile-action mobile-action-secondary"
         >Call 9327967701</a
@@ -106,13 +107,25 @@ import { mainNavigation } from '../../data/navigation';
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: transparent;
-    border: 0;
+    background: var(--surface);
+    border: var(--border-width-hairline) solid var(--border);
+    border-radius: var(--radius-md);
     cursor: pointer;
-    padding: var(--sp-2);
     width: 2.75rem;
     height: 2.75rem;
     z-index: 100;
+    transition:
+      background-color var(--mot-fast) var(--ease-emphasis),
+      border-color var(--mot-fast) var(--ease-emphasis),
+      color var(--mot-fast) var(--ease-emphasis);
+  }
+
+  .mobile-menu-trigger:hover,
+  .mobile-menu-trigger:focus-visible,
+  .mobile-menu-trigger.menu-active {
+    background-color: var(--brand-primary-soft);
+    border-color: var(--brand-primary-subtle);
+    color: var(--brand-primary);
   }
 
   .hamburger-box {
@@ -127,7 +140,7 @@ import { mainNavigation } from '../../data/navigation';
     position: absolute;
     width: 1.5rem;
     height: 2px;
-    background-color: var(--text-primary);
+    background-color: currentColor;
     transition: transform var(--mot-fast) var(--ease-emphasis);
   }
 
@@ -160,14 +173,15 @@ import { mainNavigation } from '../../data/navigation';
 
   .mobile-menu-drawer {
     position: fixed;
-    inset: var(--header-height) 0 0 0;
+    inset: 4.25rem 0 0 0;
     width: 100vw;
-    min-height: calc(100dvh - var(--header-height));
+    min-height: calc(100dvh - 4.25rem);
     background-color: var(--canvas);
     z-index: 120;
-    padding: var(--sp-8);
+    padding: var(--sp-6) var(--sp-gutter) var(--sp-8);
     overflow-y: auto;
-    box-shadow: var(--shadow-floating);
+    border-top: var(--border-width-hairline) solid var(--border);
+    box-shadow: 0 1.5rem 3rem rgba(17, 19, 26, 0.1);
   }
 
   .mobile-nav-list {
@@ -176,14 +190,21 @@ import { mainNavigation } from '../../data/navigation';
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: var(--sp-6);
+    gap: var(--sp-2);
   }
 
   .mobile-nav-link {
-    font-family: var(--font-display);
-    font-size: var(--fs-h2);
-    font-weight: var(--fw-bold);
+    display: flex;
+    min-height: var(--touch-target);
+    align-items: center;
+    border-bottom: var(--border-width-hairline) solid var(--border);
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-semibold);
     color: var(--text-primary);
+    transition:
+      color var(--mot-fast) var(--ease-emphasis),
+      border-color var(--mot-fast) var(--ease-emphasis);
   }
 
   .mobile-nav-link:hover,
@@ -194,7 +215,7 @@ import { mainNavigation } from '../../data/navigation';
   .mobile-actions {
     display: grid;
     gap: var(--sp-3);
-    margin-top: var(--sp-8);
+    margin-top: var(--sp-6);
   }
 
   .mobile-action {
@@ -211,10 +232,28 @@ import { mainNavigation } from '../../data/navigation';
   .mobile-action-primary {
     background-color: var(--brand-primary);
     color: #ffffff;
+    transition: background-color var(--mot-fast) var(--ease-emphasis);
+  }
+
+  .mobile-action-primary:hover,
+  .mobile-action-primary:focus-visible {
+    background-color: var(--brand-primary-hover);
   }
 
   .mobile-action-secondary {
+    background-color: var(--surface);
+    border: var(--border-width-hairline) solid var(--border);
+    color: var(--text-primary);
+    transition:
+      background-color var(--mot-fast) var(--ease-emphasis),
+      border-color var(--mot-fast) var(--ease-emphasis),
+      color var(--mot-fast) var(--ease-emphasis);
+  }
+
+  .mobile-action-secondary:hover,
+  .mobile-action-secondary:focus-visible {
     background-color: var(--brand-primary-soft);
+    border-color: var(--brand-primary-subtle);
     color: var(--brand-primary);
   }
 </style>
