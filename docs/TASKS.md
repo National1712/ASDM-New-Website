@@ -148,6 +148,8 @@ Refined the approved hero implementation on 2026-08-22 to keep the desktop H1 fi
 
 Reworked the hero again on 2026-08-22 after owner review into a cleaner world-class premium composition: shorter headline, stronger visible ASDM A backdrop, clearer student image presentation, reduced card clutter, cleaner proof bullets, and unchanged approved header.
 
+Corrected the hero again on 2026-08-22 after owner follow-up: tightened the H1 into a clear `Digital Marketing` / `Course in Ahmedabad` structure, strengthened the ASDM A visual stage behind the student, and kept the student image natural while preserving the approved header and section isolation.
+
 ## Not Started
 
 ### TASK-010: Content Collection Setup

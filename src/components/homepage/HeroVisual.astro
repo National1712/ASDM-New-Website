@@ -228,14 +228,48 @@ const { hero } = Astro.props;
 
   .brand-a-device {
     position: absolute;
-    inset: 0 3% 6% 7%;
+    inset: -2% 0 5% 4%;
     z-index: 1;
+  }
+
+  .brand-a-device::before {
+    content: 'A';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 0;
+    color: rgba(225, 38, 47, 0.3);
+    font-family: var(--font-display);
+    font-size: clamp(34rem, 47vw, 41rem);
+    font-weight: 800;
+    line-height: 0.76;
+    -webkit-text-stroke: 0.2rem rgba(17, 19, 26, 0.13);
+    text-stroke: 0.2rem rgba(17, 19, 26, 0.13);
+    transform: translate(-45%, -46%) skewX(-3deg);
+  }
+
+  .brand-a-device::after {
+    content: '';
+    position: absolute;
+    left: 24%;
+    right: 6%;
+    top: 26%;
+    bottom: 7%;
+    z-index: 1;
+    background: linear-gradient(
+      145deg,
+      rgba(225, 38, 47, 0.96),
+      rgba(225, 38, 47, 0.86)
+    );
+    clip-path: polygon(28% 0, 78% 0, 100% 100%, 0 100%);
+    box-shadow: 0 1.8rem 3.2rem rgba(225, 38, 47, 0.22);
   }
 
   .a-stem,
   .a-cross,
   .a-red-leg {
     position: absolute;
+    z-index: 2;
     display: block;
     border-radius: var(--radius-md);
     transform-origin: center;
@@ -245,8 +279,12 @@ const { hero } = Astro.props;
     bottom: 0;
     width: 31%;
     height: 96%;
-    background: linear-gradient(180deg, #ffffff, var(--surface-soft));
-    border: var(--border-width-hairline) solid rgba(223, 227, 234, 0.92);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.78),
+      rgba(241, 243, 247, 0.84)
+    );
+    border: var(--border-width-hairline) solid rgba(199, 206, 216, 0.95);
     box-shadow: var(--shadow-soft);
   }
 
@@ -265,7 +303,7 @@ const { hero } = Astro.props;
     right: 14%;
     top: 39%;
     height: 21%;
-    background-color: #e1262f;
+    background-color: rgba(225, 38, 47, 0.94);
     transform: skewX(-17deg);
     box-shadow: 0 1.25rem 2.6rem rgba(225, 38, 47, 0.2);
   }
@@ -281,7 +319,7 @@ const { hero } = Astro.props;
 
   .student-frame {
     position: absolute;
-    inset: 2% 17% 0 16%;
+    inset: 4% 17% 0 16%;
     z-index: 3;
     display: flex;
     align-items: flex-end;

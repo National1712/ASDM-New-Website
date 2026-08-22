@@ -46,7 +46,7 @@ export const homepageHero: HomepageHeroContent = {
   },
   heading: {
     main: 'Digital Marketing',
-    accent: 'AI Career Course.',
+    accent: 'Course in Ahmedabad',
   },
   valueStatement:
     'Ahmedabad classroom training with live projects and placement support.',
