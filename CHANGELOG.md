@@ -5,8 +5,19 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## 🚀 Status Board
 
-- **Current Version**: `0.7.10-alpha.0`
-- **Build Status**: `PASSING` (Phase 7.10 centered header actions validation)
+- **Current Version**: `0.7.11-alpha.0`
+- **Build Status**: `PASSING` (Phase 7.11 approved hero reference validation)
+
+## [0.7.11-alpha.0] - 2026-08-21
+
+### Updated
+
+- Rebuilt the internal `/homepage-preview` hero against the owner-provided approved visual reference while preserving the approved global header.
+- Locked the desktop hero heading into the required two-line structure with `Digital Marketing Course in Ahmedabad` on one line and `Built for the AI Era.` as the red second line at 1366px and 1440px.
+- Updated hero copy, CTAs, micro-proof row, floating fact cards, tools strip, and bottom trust strip to match the approved hero brief.
+- Reworked the right-side visual with a CSS-built red/grey architectural ASDM A, local approved student image, five white statistic cards, and a compact five-tool strip.
+- Verified responsive behaviour across desktop and mobile viewports, including no horizontal overflow at true 390px and 375px mobile widths.
+- Refined the approved hero on 2026-08-22 with stronger desktop H1 width control, improved student/card/tool positioning, and tighter mobile visual overflow constraints while leaving the approved header unchanged.
 
 ## [0.7.10-alpha.0] - 2026-08-21
 

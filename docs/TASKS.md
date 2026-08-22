@@ -1,11 +1,11 @@
 # Tasks Tracking Board
 
-Status: `PHASE 7.10 CENTERED HEADER ACTIONS COMPLETE`
-Last updated: 2026-08-21
+Status: `PHASE 7.11 APPROVED HERO REFERENCE REBUILD COMPLETE`
+Last updated: 2026-08-22
 
 ## Summary
 
-- Complete: 21
+- Complete: 22
 - In progress: 0
 - Not started: 4
 - Blocked: 0
@@ -137,6 +137,14 @@ Removed `Brochure` from the shared main navigation so the item no longer appears
 Status: `COMPLETE`
 
 Rebalanced the desktop header into a true left/center/right grid so navigation is visually centered, increased menu typography to 15px, added a premium secondary call button with the verified `93279 67701` number and phone icon, added an arrow icon to `Enquire Now`, aligned both desktop actions to one component family, and updated mobile drawer actions with matching icons. Preserved the removed Brochure menu state and left the homepage hero unchanged.
+
+### TASK-009K: Phase 7.11 Approved Hero Reference Rebuild
+
+Status: `COMPLETE`
+
+Rebuilt only the internal `/homepage-preview` hero against the owner-provided approved visual reference. Preserved the approved global header unchanged, enforced the required desktop two-line H1 with `Digital Marketing Course in Ahmedabad` on one unwrapped first line and `Built for the AI Era.` as the red second line, updated the hero copy/CTA/micro-proof content, added the CSS-built red and grey ASDM A visual, local approved student image, five floating statistic cards, five-tool strip, and bottom trust strip, and verified desktop/mobile behaviour with true viewport checks.
+
+Refined the approved hero implementation on 2026-08-22 to keep the desktop H1 first line unwrapped at 1366px and 1440px, improve right-side student/card/tool composition, and constrain mobile visual overflow without changing the approved header or adding new sections.
 
 ## Not Started
 

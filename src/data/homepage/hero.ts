@@ -23,52 +23,68 @@ export type HomepageHeroContent = {
     value: string;
     label: string;
   }[];
+  proofPoints: string[];
   visualAsset: string;
   visualAlt: string;
   assetStatus: HeroAssetStatus;
   floatingCards: {
+    metric: string;
     label: string;
     detail: string;
-    icon: 'batches' | 'partners' | 'outcomes';
+    icon: 'students' | 'partners' | 'package' | 'batches' | 'calendar';
   }[];
   tools: {
     name: string;
-    icon: 'google-ads' | 'meta-ads' | 'chatgpt' | 'ga4' | 'seo' | 'canva';
+    icon: 'google-ads' | 'meta-ads' | 'seo' | 'analytics' | 'chatgpt';
   }[];
 };
 
 export const homepageHero: HomepageHeroContent = {
   eyebrow: {
     highlight: 'DIGITAL MARKETING + AI',
-    rest: 'AHMEDABAD | SINCE 2014',
+    rest: 'AHMEDABAD · SINCE 2014',
   },
   heading: {
     main: 'Digital Marketing Course in Ahmedabad',
     accent: 'Built for the AI Era.',
   },
-  valueStatement: 'Learn. Build. Perform. Get Industry-Ready.',
+  valueStatement: 'Learn. Execute. Perform. Grow.',
   description:
-    'Master Digital Marketing through live classroom training, real campaigns, AI-powered workflows and practical projects - guided by specialists across SEO, Google Ads, Meta Ads, Content, Analytics and more.',
+    'Learn Digital Marketing through live campaigns, real projects and AI-powered workflows—guided by industry practitioners across SEO, Social Media, Google Ads, Performance Marketing and more.',
   primaryCTA: {
     label: 'Explore Courses',
     href: '/courses',
   },
   secondaryCTA: {
-    label: 'Book Free Counselling',
+    label: 'Book Free Career Counselling',
     href: '/contact',
   },
+  proofPoints: [
+    'Classroom Training',
+    'Live Projects',
+    'AI-Integrated Learning',
+    'Placement Support',
+  ],
   trustRow: [
     {
-      value: 'Since 2014',
-      label: 'Digital Marketing Education',
+      value: 'Trusted by Students.',
+      label: 'Proven by Results.',
     },
     {
-      value: 'Google + Meta',
-      label: 'Certification Preparation',
+      value: '₹3–5 LPA',
+      label: 'Average Package',
     },
     {
-      value: 'NSDC + Skill India',
-      label: 'Recognised Training Ecosystem',
+      value: '1,456+',
+      label: 'Batches Conducted',
+    },
+    {
+      value: '2,500+',
+      label: 'Placement Partners',
+    },
+    {
+      value: '25+',
+      label: 'Trainers & Mentors',
     },
   ],
   visualAsset: '/assets/homepage/hero/student-hero.jpg',
@@ -76,27 +92,41 @@ export const homepageHero: HomepageHeroContent = {
   assetStatus: 'APPROVED_LOCAL',
   floatingCards: [
     {
-      label: 'Batches',
-      detail: 'Classroom learning cohorts',
-      icon: 'batches',
+      metric: '1,00,000+',
+      label: 'Registered Students',
+      detail: 'Registered Students',
+      icon: 'students',
     },
     {
-      label: 'Partner Network',
-      detail: 'Placement support ecosystem',
+      metric: '2,500+',
+      label: 'Placement Partners',
+      detail: 'Placement Partners',
       icon: 'partners',
     },
     {
-      label: 'Documented Outcomes',
-      detail: 'Career records pending final audit',
-      icon: 'outcomes',
+      metric: '₹1.16 Crore',
+      label: 'Highest Documented Package',
+      detail: 'Highest Documented Package',
+      icon: 'package',
+    },
+    {
+      metric: '1,456+',
+      label: 'Batches Conducted',
+      detail: 'Batches Conducted',
+      icon: 'batches',
+    },
+    {
+      metric: 'Since 2014',
+      label: 'Digital Marketing Education',
+      detail: 'Digital Marketing Education',
+      icon: 'calendar',
     },
   ],
   tools: [
     { name: 'Google Ads', icon: 'google-ads' },
     { name: 'Meta Ads', icon: 'meta-ads' },
-    { name: 'ChatGPT', icon: 'chatgpt' },
-    { name: 'GA4', icon: 'ga4' },
     { name: 'SEO', icon: 'seo' },
-    { name: 'Canva', icon: 'canva' },
+    { name: 'Analytics', icon: 'analytics' },
+    { name: 'ChatGPT', icon: 'chatgpt' },
   ],
 };

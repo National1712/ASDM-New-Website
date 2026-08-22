@@ -18,8 +18,8 @@ import { homepageHero } from '../../data/homepage/hero';
         </p>
 
         <h1>
-          {homepageHero.heading.main}
-          <span>{homepageHero.heading.accent}</span>
+          <span class="heading-line-main">{homepageHero.heading.main}</span>
+          <span class="heading-line-accent">{homepageHero.heading.accent}</span>
         </h1>
 
         <p class="hero-value">{homepageHero.valueStatement}</p>
@@ -74,20 +74,49 @@ import { homepageHero } from '../../data/homepage/hero';
           </Button>
         </div>
 
-        <dl class="hero-trust-row" aria-label="ASDM course proof points">
+        <ul class="hero-proof-row" aria-label="Program highlights">
           {
-            homepageHero.trustRow.map((item) => (
-              <div class="trust-item">
-                <dt>{item.value}</dt>
-                <dd>{item.label}</dd>
-              </div>
+            homepageHero.proofPoints.map((item) => (
+              <li>
+                <span aria-hidden="true" />
+                {item}
+              </li>
             ))
           }
-        </dl>
+        </ul>
       </div>
 
       <HeroVisual hero={homepageHero} />
     </div>
+
+    <dl class="hero-trust-strip" aria-label="ASDM course proof points">
+      {
+        homepageHero.trustRow.map((item, index) => (
+          <div class:list={['trust-item', index === 0 && 'trust-intro']}>
+            {index === 0 ? (
+              <dt>
+                <span aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M12 3 19 6v5c0 4.7-2.9 8.6-7 10-4.1-1.4-7-5.3-7-10V6l7-3Z" />
+                    <path d="m12 8 .9 1.9 2.1.3-1.5 1.5.4 2.1-1.9-1-1.9 1 .4-2.1L9 10.2l2.1-.3L12 8Z" />
+                  </svg>
+                </span>
+                <span>{item.value}</span>
+              </dt>
+            ) : (
+              <dt>{item.value}</dt>
+            )}
+            {index === 0 ? (
+              <dd>
+                Proven by <span>Results.</span>
+              </dd>
+            ) : (
+              <dd>{item.label}</dd>
+            )}
+          </div>
+        ))
+      }
+    </dl>
   </Container>
 </Section>
 
@@ -97,33 +126,36 @@ import { homepageHero } from '../../data/homepage/hero';
     overflow: clip;
     min-height: calc(100svh - var(--header-height));
     background:
-      linear-gradient(180deg, rgba(255, 255, 255, 0.76), transparent 42%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.92), transparent 48%),
       radial-gradient(
-        circle at 88% 18%,
-        rgba(225, 38, 47, 0.055),
+        circle at 86% 20%,
+        rgba(17, 19, 26, 0.035),
         transparent 30%
       ),
       var(--canvas);
-    padding-block: clamp(3.75rem, 6vw, 6.75rem) clamp(3.5rem, 5vw, 5.5rem);
+    padding-block: clamp(2rem, 3.2vw, 3.9rem) 0;
   }
 
   .hero-grid {
     display: grid;
-    grid-template-columns: minmax(0, 0.98fr) minmax(24rem, 1.02fr);
+    grid-template-columns: minmax(0, 56rem) minmax(21rem, 1fr);
     align-items: center;
-    gap: clamp(3rem, 5vw, 6rem);
+    gap: clamp(1.25rem, 2.5vw, 3rem);
+    min-width: 0;
   }
 
   .hero-copy {
-    max-width: 42.5rem;
+    position: relative;
+    z-index: 2;
+    max-width: 56rem;
   }
 
   .hero-eyebrow {
     display: inline-flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: var(--sp-2);
-    margin: 0 0 var(--sp-5);
+    gap: var(--sp-3);
+    margin: 0 0 var(--sp-6);
     font-family: var(--font-body);
     font-size: clamp(0.75rem, 0.3vw + 0.68rem, 0.8125rem);
     font-weight: var(--fw-semibold);
@@ -145,37 +177,44 @@ import { homepageHero } from '../../data/homepage/hero';
   }
 
   h1 {
-    max-width: 42rem;
+    max-width: none;
     margin: 0;
     font-family: var(--font-display);
-    font-size: clamp(3rem, 4.9vw, 4.25rem);
-    font-weight: var(--fw-semibold);
-    line-height: 1.06;
-    letter-spacing: -0.02em;
+    font-size: clamp(2.5rem, 3.45vw, 3.7rem);
+    font-weight: var(--fw-bold);
+    line-height: 0.99;
+    letter-spacing: var(--ls-tight);
     color: var(--text-primary);
-    text-wrap: balance;
   }
 
   h1 span {
     display: block;
+  }
+
+  .heading-line-main {
+    white-space: nowrap;
+  }
+
+  .heading-line-accent {
+    margin-top: var(--sp-2);
     color: var(--brand-primary);
   }
 
   .hero-value {
-    max-width: 39rem;
-    margin: var(--sp-6) 0 0;
+    max-width: 45rem;
+    margin: var(--sp-7) 0 0;
     font-family: var(--font-display);
-    font-size: clamp(1.35rem, 1vw + 1rem, 1.6rem);
+    font-size: clamp(1.35rem, 1vw + 1rem, 1.55rem);
     font-weight: var(--fw-semibold);
     line-height: var(--lh-heading);
     color: var(--text-primary);
   }
 
   .hero-description {
-    max-width: 38rem;
+    max-width: 43rem;
     margin: var(--sp-4) 0 0;
-    font-size: clamp(1.0625rem, 0.35vw + 0.95rem, 1.125rem);
-    line-height: 1.68;
+    font-size: clamp(1rem, 0.34vw + 0.92rem, 1.1rem);
+    line-height: 1.65;
     color: var(--text-secondary);
   }
 
@@ -190,7 +229,7 @@ import { homepageHero } from '../../data/homepage/hero';
   :global(.hero-primary-action),
   :global(.hero-secondary-action) {
     min-height: 3.25rem;
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius-md);
     gap: var(--sp-2);
     padding-inline: var(--sp-6);
   }
@@ -204,9 +243,13 @@ import { homepageHero } from '../../data/homepage/hero';
   }
 
   :global(.hero-secondary-action) {
-    background-color: rgba(255, 255, 255, 0.76) !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
     border-color: var(--border-strong) !important;
     color: var(--text-primary) !important;
+  }
+
+  :global(.hero-secondary-action svg) {
+    color: var(--brand-primary);
   }
 
   :global(.hero-secondary-action:hover) {
@@ -215,19 +258,68 @@ import { homepageHero } from '../../data/homepage/hero';
     color: var(--brand-primary) !important;
   }
 
-  .hero-trust-row {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0;
-    max-width: 42rem;
+  .hero-proof-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp-3) 0;
+    padding: 0;
     margin: var(--sp-8) 0 0;
-    padding: var(--sp-5) 0 0;
-    border-top: var(--border-width-hairline) solid var(--border);
+    list-style: none;
+  }
+
+  .hero-proof-row li {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-3);
+    font-size: var(--fs-body-sm);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-meta);
+    color: var(--text-primary);
+  }
+
+  .hero-proof-row li:not(:last-child)::after {
+    content: '';
+    width: 1px;
+    height: 1.1rem;
+    margin-inline: var(--sp-5);
+    background-color: var(--brand-primary);
+  }
+
+  .hero-proof-row li span {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: var(--radius-pill);
+    background-color: var(--brand-primary);
+    flex: 0 0 auto;
+  }
+
+  .hero-proof-row li:not(:first-child) span {
+    display: none;
+  }
+
+  .hero-trust-strip {
+    position: relative;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 1.28fr repeat(4, minmax(0, 1fr));
+    align-items: center;
+    gap: 0;
+    margin: clamp(0.75rem, 1.3vw, 1.5rem) auto 0;
+    padding: var(--sp-6) clamp(var(--sp-5), 3.4vw, var(--sp-12));
+    background: rgba(255, 255, 255, 0.94);
+    border: var(--border-width-hairline) solid rgba(223, 227, 234, 0.92);
+    border-bottom: 0;
+    border-radius: 50% 50% 0 0 / 24% 24% 0 0;
+    box-shadow: 0 -0.6rem 2.2rem rgba(17, 19, 26, 0.06);
   }
 
   .trust-item {
-    padding-inline: var(--sp-5);
-    border-left: var(--border-width-hairline) solid var(--border);
+    min-height: 4.25rem;
+    display: grid;
+    align-content: center;
+    padding-inline: clamp(var(--sp-4), 2.2vw, var(--sp-7));
+    border-left: var(--border-width-hairline) solid var(--border-strong);
   }
 
   .trust-item:first-child {
@@ -236,39 +328,104 @@ import { homepageHero } from '../../data/homepage/hero';
   }
 
   .trust-item dt {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
     font-family: var(--font-display);
-    font-size: var(--fs-body);
+    font-size: clamp(1.4rem, 1vw + 1rem, 1.65rem);
     font-weight: var(--fw-bold);
     line-height: var(--lh-meta);
     color: var(--text-primary);
   }
 
+  .trust-intro dt {
+    font-size: var(--fs-body);
+    line-height: var(--lh-heading);
+  }
+
+  .trust-intro dt span:first-child {
+    width: 3.25rem;
+    height: 3.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--border-width-hairline) solid var(--border-strong);
+    border-radius: var(--radius-pill);
+    color: var(--brand-primary);
+    flex: 0 0 auto;
+  }
+
+  .trust-intro svg {
+    width: 1.9rem;
+    height: 1.9rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.55;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
   .trust-item dd {
     margin: var(--sp-1) 0 0;
-    font-size: var(--fs-caption);
+    font-size: var(--fs-body-sm);
     font-weight: var(--fw-medium);
     line-height: var(--lh-meta);
     color: var(--text-secondary);
+  }
+
+  .trust-intro dd {
+    padding-left: calc(3.25rem + var(--sp-4));
+  }
+
+  .trust-intro dd span {
+    color: var(--brand-primary);
+    font-weight: var(--fw-bold);
   }
 
   @media (max-width: 1024px) {
     .hero-grid {
       grid-template-columns: 1fr;
       gap: var(--sp-12);
+      min-width: 0;
     }
 
     .hero-copy {
       max-width: 46rem;
     }
+
+    .heading-line-main {
+      white-space: normal;
+    }
+
+    .hero-trust-strip {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    }
+
+    .trust-item:nth-child(odd) {
+      border-left: 0;
+    }
   }
 
   @media (max-width: 640px) {
     :global(.homepage-hero) {
-      padding-block: var(--sp-10) var(--sp-12);
+      padding-block: var(--sp-10) 0;
+    }
+
+    .hero-copy {
+      width: 100%;
+      min-width: 0;
     }
 
     h1 {
-      font-size: clamp(2.55rem, 10vw, 3.25rem);
+      font-size: clamp(2rem, 7.4vw, 2.25rem);
+      line-height: 1.05;
+      overflow-wrap: normal;
+    }
+
+    .heading-line-main {
+      white-space: normal;
+      overflow-wrap: break-word;
     }
 
     .hero-actions {
@@ -281,15 +438,36 @@ import { homepageHero } from '../../data/homepage/hero';
       width: 100%;
     }
 
-    .hero-trust-row {
+    .hero-proof-row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--sp-3);
+    }
+
+    .hero-proof-row li::after {
+      display: none;
+    }
+
+    .hero-proof-row li:not(:first-child) span {
+      display: block;
+    }
+
+    .hero-trust-strip {
       grid-template-columns: 1fr;
       gap: var(--sp-4);
+      padding: var(--sp-5);
+      margin-top: var(--sp-8);
     }
 
     .trust-item,
-    .trust-item:first-child {
+    .trust-item:first-child,
+    .trust-item:nth-child(odd) {
       padding: 0 0 0 var(--sp-4);
       border-left: var(--border-width-strong) solid var(--brand-primary);
+    }
+
+    .trust-intro dd {
+      padding-left: 0;
     }
   }
 </style>
