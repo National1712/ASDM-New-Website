@@ -77,8 +77,8 @@ describe('Phase 7 Homepage Hero Guardrails', () => {
       "visualAsset: '/assets/homepage/hero/student-hero.jpg'"
     );
     expect(heroData).toContain("assetStatus: 'APPROVED_LOCAL'");
-    expect(heroData).toContain('Digital Marketing Course in Ahmedabad');
-    expect(heroData).toContain('Built for the AI Era.');
+    expect(heroData).toContain('Digital Marketing');
+    expect(heroData).toContain('AI Career Course.');
     expect(heroData).not.toContain('BJP-&-ABVP-Internship-1.webp');
     expect(heroComponent).toContain('<h1>');
     expect((heroComponent.match(/<h1/g) || []).length).toBe(1);

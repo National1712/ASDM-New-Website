@@ -45,12 +45,13 @@ export const homepageHero: HomepageHeroContent = {
     rest: 'AHMEDABAD · SINCE 2014',
   },
   heading: {
-    main: 'Digital Marketing Course in Ahmedabad',
-    accent: 'Built for the AI Era.',
+    main: 'Digital Marketing',
+    accent: 'AI Career Course.',
   },
-  valueStatement: 'Learn. Execute. Perform. Grow.',
+  valueStatement:
+    'Ahmedabad classroom training with live projects and placement support.',
   description:
-    'Learn Digital Marketing through live campaigns, real projects and AI-powered workflows—guided by industry practitioners across SEO, Social Media, Google Ads, Performance Marketing and more.',
+    'Learn digital marketing in Ahmedabad through guided campaigns, AI-powered workflows, SEO, Social Media, Google Ads, Performance Marketing and real project execution.',
   primaryCTA: {
     label: 'Explore Courses',
     href: '/courses',

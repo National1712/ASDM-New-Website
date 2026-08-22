@@ -172,15 +172,14 @@ const { hero } = Astro.props;
 <style>
   .hero-visual {
     position: relative;
-    width: min(116%, 50rem);
+    width: min(100%, 48rem);
     max-width: none;
-    margin-left: clamp(-6.5rem, -5vw, -3rem);
-    margin-right: 0;
+    margin-inline: auto;
   }
 
   .visual-container {
     position: relative;
-    min-height: clamp(34rem, 43vw, 41rem);
+    min-height: clamp(34rem, 42vw, 39.5rem);
     isolation: isolate;
   }
 
@@ -198,13 +197,13 @@ const { hero } = Astro.props;
   }
 
   .visual-dots-left {
-    left: 16%;
-    top: 12%;
+    left: 10%;
+    top: 10%;
   }
 
   .visual-dots-right {
-    right: -2%;
-    top: 30%;
+    right: 5%;
+    top: 24%;
   }
 
   .visual-line {
@@ -217,19 +216,19 @@ const { hero } = Astro.props;
   }
 
   .visual-line-one {
-    top: 10%;
-    right: 28%;
+    top: 8%;
+    right: 25%;
   }
 
   .visual-line-two {
-    top: 14%;
-    right: 23%;
+    top: 12%;
+    right: 20%;
     opacity: 0.5;
   }
 
   .brand-a-device {
     position: absolute;
-    inset: 3% 1% 8% 8%;
+    inset: 0 3% 6% 7%;
     z-index: 1;
   }
 
@@ -243,73 +242,59 @@ const { hero } = Astro.props;
   }
 
   .a-stem {
-    bottom: 2%;
-    width: 30%;
-    height: 92%;
+    bottom: 0;
+    width: 31%;
+    height: 96%;
     background: linear-gradient(180deg, #ffffff, var(--surface-soft));
     border: var(--border-width-hairline) solid rgba(223, 227, 234, 0.92);
     box-shadow: var(--shadow-soft);
   }
 
   .a-stem-left {
-    left: 20%;
-    transform: skewX(-23deg);
+    left: 18%;
+    transform: skewX(-22deg);
   }
 
   .a-stem-right {
-    right: 9%;
-    transform: skewX(23deg);
+    right: 10%;
+    transform: skewX(22deg);
   }
 
   .a-cross {
-    left: 31%;
-    right: 11%;
-    top: 41%;
-    height: 18%;
+    left: 25%;
+    right: 14%;
+    top: 39%;
+    height: 21%;
     background-color: #e1262f;
-    transform: skewX(-18deg);
-    box-shadow: 0 1.2rem 2.5rem rgba(225, 38, 47, 0.18);
+    transform: skewX(-17deg);
+    box-shadow: 0 1.25rem 2.6rem rgba(225, 38, 47, 0.2);
   }
 
   .a-red-leg {
-    right: 4%;
-    bottom: 6%;
-    width: 30%;
-    height: 39%;
+    right: 3%;
+    bottom: 4%;
+    width: 29%;
+    height: 43%;
     background-color: rgba(225, 38, 47, 0.94);
-    transform: skewX(19deg);
+    transform: skewX(18deg);
   }
 
   .student-frame {
     position: absolute;
-    inset: 4% 9% 0 -2%;
+    inset: 2% 17% 0 16%;
     z-index: 3;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    overflow: hidden;
-    border-radius: 0 0 var(--radius-feature) var(--radius-feature);
-  }
-
-  .student-frame::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-      90deg,
-      transparent 0 58%,
-      rgba(255, 255, 255, 0.75)
-    );
-    mix-blend-mode: screen;
-    pointer-events: none;
-    z-index: 1;
+    overflow: visible;
+    border-radius: var(--radius-feature);
   }
 
   .student-frame::after {
     content: '';
     position: absolute;
-    inset: auto 6% 0;
-    height: 19%;
+    inset: auto -14% 0;
+    height: 18%;
     background: linear-gradient(180deg, transparent, rgba(247, 248, 251, 0.96));
     pointer-events: none;
     z-index: 2;
@@ -318,25 +303,24 @@ const { hero } = Astro.props;
   .student-image {
     position: relative;
     z-index: 0;
-    width: min(137%, 52rem);
+    width: min(112%, 32rem);
     height: auto;
     object-fit: contain;
     object-position: center bottom;
-    transform: translateX(-9%);
-    mix-blend-mode: multiply;
-    filter: contrast(1.05) drop-shadow(0 1.6rem 2.4rem rgba(17, 19, 26, 0.14));
+    transform: translateY(1%);
+    filter: contrast(1.04) drop-shadow(0 1.5rem 2.5rem rgba(17, 19, 26, 0.16));
   }
 
   .proof-card {
     position: absolute;
     z-index: 5;
-    width: clamp(9.1rem, 11.2vw, 10.8rem);
-    min-height: 7.9rem;
+    width: clamp(8.9rem, 10.2vw, 10.3rem);
+    min-height: 7.2rem;
     padding: var(--sp-4);
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.96);
     border: var(--border-width-hairline) solid rgba(223, 227, 234, 0.92);
     border-radius: var(--radius-md);
-    box-shadow: 0 1.15rem 2.7rem rgba(17, 19, 26, 0.1);
+    box-shadow: 0 1rem 2.5rem rgba(17, 19, 26, 0.09);
     display: grid;
     align-content: center;
     gap: var(--sp-2);
@@ -350,7 +334,7 @@ const { hero } = Astro.props;
 
   .proof-card strong {
     font-family: var(--font-display);
-    font-size: clamp(1.3rem, 0.72vw + 1rem, 1.55rem);
+    font-size: clamp(1.2rem, 0.62vw + 1rem, 1.42rem);
     font-weight: var(--fw-bold);
     line-height: 1.05;
     color: var(--text-primary);
@@ -364,43 +348,42 @@ const { hero } = Astro.props;
   }
 
   .proof-card-1 {
-    right: 5%;
-    top: 12%;
+    right: 3%;
+    top: 11%;
   }
 
   .proof-card-2 {
     left: 0;
-    top: 32%;
+    top: 29%;
   }
 
   .proof-card-3 {
-    right: 2%;
-    top: 36%;
+    display: none;
   }
 
   .proof-card-4 {
-    left: -1%;
-    top: 56%;
+    left: 4%;
+    top: 55%;
   }
 
   .proof-card-5 {
-    right: 7%;
-    bottom: 10%;
+    right: 4%;
+    bottom: 19%;
   }
 
   .tools-panel {
     position: absolute;
     z-index: 6;
-    left: 3%;
-    right: 5%;
-    bottom: 0.5%;
+    left: 9%;
+    right: 9%;
+    bottom: 0;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 0;
-    padding: var(--sp-3);
+    padding: var(--sp-3) var(--sp-4);
     background-color: rgba(255, 255, 255, 0.92);
     border: var(--border-width-hairline) solid rgba(223, 227, 234, 0.92);
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius-md);
     box-shadow: 0 1rem 2.4rem rgba(17, 19, 26, 0.09);
     backdrop-filter: blur(10px);
   }
@@ -429,7 +412,7 @@ const { hero } = Astro.props;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-size: 0.64rem;
+    font-size: 0.68rem;
     font-weight: var(--fw-medium);
     line-height: var(--lh-meta);
     color: var(--text-primary);
@@ -474,7 +457,7 @@ const { hero } = Astro.props;
     }
 
     .visual-container {
-      min-height: clamp(32rem, 66vw, 39rem);
+      min-height: clamp(32rem, 66vw, 38rem);
     }
   }
 
@@ -503,7 +486,7 @@ const { hero } = Astro.props;
     }
 
     .student-image {
-      width: 92%;
+      width: 86%;
     }
 
     .visual-dots,

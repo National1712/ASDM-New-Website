@@ -18,6 +18,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Reworked the right-side visual with a CSS-built red/grey architectural ASDM A, local approved student image, five white statistic cards, and a compact five-tool strip.
 - Verified responsive behaviour across desktop and mobile viewports, including no horizontal overflow at true 390px and 375px mobile widths.
 - Refined the approved hero on 2026-08-22 with stronger desktop H1 width control, improved student/card/tool positioning, and tighter mobile visual overflow constraints while leaving the approved header unchanged.
+- Reworked the hero again after owner review with a shorter premium headline, clearer student presentation, stronger ASDM A backdrop, fewer visible proof cards, and cleaner proof bullets.
 
 ## [0.7.10-alpha.0] - 2026-08-21
 

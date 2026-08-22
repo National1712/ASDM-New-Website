@@ -146,6 +146,8 @@ Rebuilt only the internal `/homepage-preview` hero against the owner-provided ap
 
 Refined the approved hero implementation on 2026-08-22 to keep the desktop H1 first line unwrapped at 1366px and 1440px, improve right-side student/card/tool composition, and constrain mobile visual overflow without changing the approved header or adding new sections.
 
+Reworked the hero again on 2026-08-22 after owner review into a cleaner world-class premium composition: shorter headline, stronger visible ASDM A backdrop, clearer student image presentation, reduced card clutter, cleaner proof bullets, and unchanged approved header.
+
 ## Not Started
 
 ### TASK-010: Content Collection Setup
